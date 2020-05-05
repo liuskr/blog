@@ -1,0 +1,315 @@
+{
+  "mysql": {
+    "client": {
+      "host": "E:\\reactBlog\\service\\config\\config.default.js",
+      "port": "E:\\reactBlog\\service\\config\\config.default.js",
+      "user": "E:\\reactBlog\\service\\config\\config.default.js",
+      "password": "E:\\reactBlog\\service\\config\\config.default.js",
+      "database": "E:\\reactBlog\\service\\config\\config.default.js"
+    },
+    "app": "E:\\reactBlog\\service\\config\\config.default.js",
+    "agent": "E:\\reactBlog\\service\\config\\config.default.js",
+    "default": {
+      "database": "E:\\reactBlog\\service\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "E:\\reactBlog\\service\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "enable": "E:\\reactBlog\\service\\config\\config.default.js",
+      "type": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "refererWhiteList": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "domainWhiteList": "E:\\reactBlog\\service\\config\\config.default.js",
+    "protocolWhiteList": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js",
+    "xframe": {
+      "enable": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "cors": {
+    "origin": "E:\\reactBlog\\service\\config\\config.default.js",
+    "credentials": "E:\\reactBlog\\service\\config\\config.default.js",
+    "allowMethods": "E:\\reactBlog\\service\\config\\config.default.js"
+  },
+  "keys": "E:\\reactBlog\\service\\config\\config.default.js",
+  "middleware": "E:\\reactBlog\\service\\config\\config.default.js",
+  "session": {
+    "maxAge": "E:\\reactBlog\\service\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "E:\\reactBlog\\service\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "E:\\reactBlog\\service\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "E:\\reactBlog\\service\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "helper": {
+    "shtml": "E:\\reactBlog\\service\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "E:\\reactBlog\\service\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "E:\\reactBlog\\service\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "E:\\reactBlog\\service\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "E:\\reactBlog\\service\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "E:\\reactBlog\\service\\node_modules\\egg-onerror\\config\\config.default.js",
+    "templatePath": "E:\\reactBlog\\service\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "E:\\reactBlog\\service\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "E:\\reactBlog\\service\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "E:\\reactBlog\\service\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "E:\\reactBlog\\service\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieDomain": "E:\\reactBlog\\service\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "E:\\reactBlog\\service\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "E:\\reactBlog\\service\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "E:\\reactBlog\\service\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "E:\\reactBlog\\service\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "E:\\reactBlog\\service\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "E:\\reactBlog\\service\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "E:\\reactBlog\\service\\node_modules\\egg-schedule\\config\\config.default.js"
+  },
+  "multipart": {
+    "mode": "E:\\reactBlog\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "autoFields": "E:\\reactBlog\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "E:\\reactBlog\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "E:\\reactBlog\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "E:\\reactBlog\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "E:\\reactBlog\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "E:\\reactBlog\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "E:\\reactBlog\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "E:\\reactBlog\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "E:\\reactBlog\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "tmpdir": "E:\\reactBlog\\service\\node_modules\\egg-multipart\\config\\config.default.js",
+    "cleanSchedule": {
+      "cron": "E:\\reactBlog\\service\\node_modules\\egg-multipart\\config\\config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "E:\\reactBlog\\service\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "E:\\reactBlog\\service\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "E:\\reactBlog\\service\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "E:\\reactBlog\\service\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "E:\\reactBlog\\service\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "E:\\reactBlog\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "E:\\reactBlog\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "E:\\reactBlog\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "E:\\reactBlog\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "E:\\reactBlog\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "E:\\reactBlog\\service\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "E:\\reactBlog\\service\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "E:\\reactBlog\\service\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "E:\\reactBlog\\service\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "E:\\reactBlog\\service\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "E:\\reactBlog\\service\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "E:\\reactBlog\\service\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "E:\\reactBlog\\service\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "view": {
+    "root": "E:\\reactBlog\\service\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "E:\\reactBlog\\service\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "E:\\reactBlog\\service\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "E:\\reactBlog\\service\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "E:\\reactBlog\\service\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "env": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+  "name": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+  "cookies": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+  "maxIpsCount": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+  "maxProxyCount": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "version": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "description": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "private": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "egg": {
+      "declarations": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+    },
+    "dependencies": {
+      "egg": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "egg-cors": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "stop": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "dev": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "debug": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "test": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "cov": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "lint": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "ci": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "autod": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "url": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "license": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "textLimit": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "strict": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "depth": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+    },
+    "onerror": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+  },
+  "logger": {
+    "dir": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "env": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "level": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheLookupInterval": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketTimeout": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "logging": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+  "serverTimeout": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "port": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+  },
+  "onClientError": "E:\\reactBlog\\service\\node_modules\\egg\\config\\config.default.js"
+}

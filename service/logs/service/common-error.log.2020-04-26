@@ -1,0 +1,105 @@
+2020-04-26 09:42:13,314 ERROR 22044 [-/127.0.0.1/-/20ms GET /admin/getArticleList] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.view_count as view_count ,FROM article LEFT JOIN type ON article.type_id' at line 1
+    at Query.Sequence._packetToError (E:\reactBlog\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\reactBlog\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\reactBlog\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\reactBlog\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\reactBlog\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\reactBlog\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\reactBlog\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\reactBlog\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (E:\reactBlog\service\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\reactBlog\service\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\reactBlog\service\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\reactBlog\service\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\reactBlog\service\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    sql: SELECT article.id as id,article.title as title,article.introduce as introduce,FROM_UNIXTIME(article.addTime,'%Y-%m-%d' ) as addTime,type.typeName as typeName article.view_count as view_count ,FROM article LEFT JOIN type ON article.type_id = type.Id ORDER BY article.id DESC 
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.view_count as view_count ,FROM article LEFT JOIN type ON article.type_id' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id,article.title as title,article.introduce as introduce,FROM_UNIXTIME(article.addTime,'%Y-%m-%d' ) as addTime,type.typeName as typeName article.view_count as view_count ,FROM article LEFT JOIN type ON article.type_id = type.Id ORDER BY article.id DESC "
+name: "ER_PARSE_ERRORError"
+pid: 22044
+hostname: AUUX0RJNSI27X9S
+
+2020-04-26 09:42:14,931 ERROR 22044 [-/127.0.0.1/-/5ms GET /admin/getArticleList] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.view_count as view_count ,FROM article LEFT JOIN type ON article.type_id' at line 1
+    at Query.Sequence._packetToError (E:\reactBlog\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\reactBlog\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\reactBlog\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\reactBlog\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\reactBlog\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\reactBlog\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\reactBlog\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\reactBlog\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (E:\reactBlog\service\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\reactBlog\service\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\reactBlog\service\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\reactBlog\service\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\reactBlog\service\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    sql: SELECT article.id as id,article.title as title,article.introduce as introduce,FROM_UNIXTIME(article.addTime,'%Y-%m-%d' ) as addTime,type.typeName as typeName article.view_count as view_count ,FROM article LEFT JOIN type ON article.type_id = type.Id ORDER BY article.id DESC 
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article.view_count as view_count ,FROM article LEFT JOIN type ON article.type_id' at line 1"
+sqlState: "42000"
+index: 0
+sql: "SELECT article.id as id,article.title as title,article.introduce as introduce,FROM_UNIXTIME(article.addTime,'%Y-%m-%d' ) as addTime,type.typeName as typeName article.view_count as view_count ,FROM article LEFT JOIN type ON article.type_id = type.Id ORDER BY article.id DESC "
+name: "ER_PARSE_ERRORError"
+pid: 22044
+hostname: AUUX0RJNSI27X9S
+
+2020-04-26 10:49:26,832 ERROR 16904 [-/127.0.0.1/-/2ms GET /admin/delectArticle/4] nodejs.TypeError: this.app.mysql.delect is not a function
+    at MainController.delectArticle (E:\reactBlog\service\app\controller\admin\main.js:59:38)
+    at Object.callFn (E:\reactBlog\service\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (E:\reactBlog\service\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (E:\reactBlog\service\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (E:\reactBlog\service\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (E:\reactBlog\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\reactBlog\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+    at adminauth (E:\reactBlog\service\app\middleware\adminauth.js:9:13)
+    at dispatch (E:\reactBlog\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:44:32)
+    at next (E:\reactBlog\service\node_modules\@eggjs\router\node_modules\koa-compose\index.js:45:18)
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 16904
+hostname: AUUX0RJNSI27X9S
+
+2020-04-26 13:22:27,536 ERROR 18160 nodejs.ClusterClientNoResponseError: client no response in 3658577ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 18160
+hostname: AUUX0RJNSI27X9S
+
+2020-04-26 13:42:35,738 ERROR 18160 nodejs.ClusterClientNoResponseError: client no response in 268123ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 18160
+hostname: AUUX0RJNSI27X9S
+
+2020-04-27 09:02:10,721 ERROR 15788 nodejs.ClusterClientNoResponseError: client no response in 50625839ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15788
+hostname: AUUX0RJNSI27X9S
+
