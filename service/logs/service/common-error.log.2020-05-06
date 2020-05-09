@@ -1,0 +1,40 @@
+2020-05-04 12:44:14,517 ERROR 5472 nodejs.ClusterClientNoResponseError: client no response in 254598ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 5472
+hostname: AUUX0RJNSI27X9S
+
+2020-05-04 13:46:43,049 ERROR 5472 nodejs.ClusterClientNoResponseError: client no response in 3581195ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 5472
+hostname: AUUX0RJNSI27X9S
+
+2020-05-04 13:46:52,085 ERROR 6608 nodejs.ServerNoResponseError: server 127.0.0.1:51828 no response in 3581194ms, maybe the socket is end on the other side. (address: 127.0.0.1:51828)
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\tcp-base\lib\base.js:427:21)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ServerNoResponseError"
+pid: 6608
+hostname: AUUX0RJNSI27X9S
+
+2020-05-04 19:10:42,537 ERROR 5472 nodejs.ClusterClientNoResponseError: client no response in 3428247ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 5472
+hostname: AUUX0RJNSI27X9S
+
+2020-05-07 09:00:06,758 ERROR 10036 nodejs.ClusterClientNoResponseError: client no response in 52895917ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 10036
+hostname: AUUX0RJNSI27X9S
+

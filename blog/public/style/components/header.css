@@ -7,8 +7,25 @@
 }
 .logo{
   font-size: 2rem;
-  color: cornflowerblue;
   text-align: left;
+  background-image: linear-gradient(90deg, #f66, #f90);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -ms-background-clip: text;
+  animation: hue 5s linear infinite;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -ms-text-fill-color: transparent;
+
+}
+@keyframes hue {
+  from {
+    filter: hue-rotate(0);
+  }
+
+  to {
+    filter: hue-rotate(-1turn);
+  }
 }
 /* .text{
   font-size: .6rem;
@@ -28,11 +45,11 @@
   display:inline-block;
   overflow:hidden;
   white-space:nowrap;
+ 
 }
 
-.text:first-of-type {    
-  animation: showup 7s infinite;
-}
+
+
 
 .text:last-of-type {
   width:0px;
@@ -40,15 +57,10 @@
 }
 
 .text:last-of-type span {
+  
   animation: slidein 7s infinite;
 }
 
-@keyframes showup {
-    0% {opacity:0;}
-    20% {opacity:1;}
-    80% {opacity:1;}
-    100% {opacity:0;}
-}
 
 @keyframes slidein {
     0% { margin-left:-4rem; }
@@ -60,9 +72,11 @@
 @keyframes reveal {
     0% {opacity:0;width:0px;}
     20% {opacity:1;width:0px;}
-    30% {width:355px;}
+    30% {width:11rem;}
     80% {opacity:1;}
-    100% {opacity:0;width:355px;}
+    100% {opacity:0;width:11rem;}
 }
-
+.ftz{
+  font-size: .8rem;
+}
 

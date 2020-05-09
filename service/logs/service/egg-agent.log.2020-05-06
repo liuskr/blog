@@ -1,0 +1,104 @@
+2020-04-27 09:02:12,258 INFO 15788 [egg-logrotator] agent logger reload: got log-reload message
+2020-04-27 09:27:11,764 INFO 15788 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"E:\\reactBlog\\service\\app\\controller\\default\\home.js","stat":{"dev":246763,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474976864059,"size":2147,"blocks":8,"atimeMs":1587622659892.0637,"mtimeMs":1587950831761.2695,"ctimeMs":1587950831761.2695,"birthtimeMs":1587622659892.0637,"atime":"2020-04-23T06:17:39.892Z","mtime":"2020-04-27T01:27:11.761Z","ctime":"2020-04-27T01:27:11.761Z","birthtime":"2020-04-23T06:17:39.892Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-27 09:27:11,765 INFO 15788 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"E:\\reactBlog\\service\\app\\controller\\default\\home.js","stat":{"dev":246763,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474976864059,"size":2147,"blocks":8,"atimeMs":1587622659892.0637,"mtimeMs":1587950831761.2695,"ctimeMs":1587950831761.2695,"birthtimeMs":1587622659892.0637,"atime":"2020-04-23T06:17:39.892Z","mtime":"2020-04-27T01:27:11.761Z","ctime":"2020-04-27T01:27:11.761Z","birthtime":"2020-04-23T06:17:39.892Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-27 09:27:11,766 INFO 15788 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"E:\\reactBlog\\service\\app\\controller\\default\\home.js","stat":{"dev":246763,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474976864059,"size":2147,"blocks":8,"atimeMs":1587622659892.0637,"mtimeMs":1587950831762.7717,"ctimeMs":1587950831762.7717,"birthtimeMs":1587622659892.0637,"atime":"2020-04-23T06:17:39.892Z","mtime":"2020-04-27T01:27:11.763Z","ctime":"2020-04-27T01:27:11.763Z","birthtime":"2020-04-23T06:17:39.892Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-27 09:27:11,967 WARN 15788 [agent:development] reload worker because E:\reactBlog\service\app\controller\default\home.js change
+2020-04-27 09:27:12,360 WARN 15788 [agent:development] reload worker because E:\reactBlog\service\app\controller\default\home.js change
+2020-04-27 09:27:12,159 INFO 15788 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"E:\\reactBlog\\service\\app\\controller\\default\\home.js","stat":{"dev":246763,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474976864059,"size":2147,"blocks":8,"atimeMs":1587622659892.0637,"mtimeMs":1587950831987.535,"ctimeMs":1587950831987.535,"birthtimeMs":1587622659892.0637,"atime":"2020-04-23T06:17:39.892Z","mtime":"2020-04-27T01:27:11.988Z","ctime":"2020-04-27T01:27:11.988Z","birthtime":"2020-04-23T06:17:39.892Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-27 09:27:12,159 INFO 15788 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"E:\\reactBlog\\service\\app\\controller\\default\\home.js","stat":{"dev":246763,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474976864059,"size":2147,"blocks":8,"atimeMs":1587622659892.0637,"mtimeMs":1587950831987.535,"ctimeMs":1587950831987.535,"birthtimeMs":1587622659892.0637,"atime":"2020-04-23T06:17:39.892Z","mtime":"2020-04-27T01:27:11.988Z","ctime":"2020-04-27T01:27:11.988Z","birthtime":"2020-04-23T06:17:39.892Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-27 09:27:12,159 INFO 15788 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"E:\\reactBlog\\service\\app\\controller\\default\\home.js","stat":{"dev":246763,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474976864059,"size":2147,"blocks":8,"atimeMs":1587622659892.0637,"mtimeMs":1587950831987.535,"ctimeMs":1587950831987.535,"birthtimeMs":1587622659892.0637,"atime":"2020-04-23T06:17:39.892Z","mtime":"2020-04-27T01:27:11.988Z","ctime":"2020-04-27T01:27:11.988Z","birthtime":"2020-04-23T06:17:39.892Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-27 09:27:12,160 INFO 15788 [egg-watcher] Received a change event from eventSource: {"event":"change","path":"E:\\reactBlog\\service\\app\\controller\\default\\home.js","stat":{"dev":246763,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"blksize":4096,"ino":281474976864059,"size":2147,"blocks":8,"atimeMs":1587622659892.0637,"mtimeMs":1587950832051.6528,"ctimeMs":1587950832051.6528,"birthtimeMs":1587622659892.0637,"atime":"2020-04-23T06:17:39.892Z","mtime":"2020-04-27T01:27:12.052Z","ctime":"2020-04-27T01:27:12.052Z","birthtime":"2020-04-23T06:17:39.892Z"},"remove":false,"isDirectory":false,"isFile":true}
+2020-04-27 09:27:13,513 WARN 15788 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-27 09:27:15,179 WARN 15788 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-27 10:18:35,546 INFO 1092 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-04-27 10:18:35,553 INFO 1092 [egg:core] dump config after load, 3ms
+2020-04-27 10:18:35,692 INFO 1092 [egg-watcher] Start watching: ["E:\\reactBlog\\service\\app","E:\\reactBlog\\service\\config","E:\\reactBlog\\service\\mocks","E:\\reactBlog\\service\\mocks_proxy","E:\\reactBlog\\service\\app.js"]
+2020-04-27 10:18:35,692 INFO 1092 [egg-watcher] Start watching: "E:\\reactBlog\\service\\app"
+2020-04-27 10:18:35,693 INFO 1092 [egg-watcher] Start watching: "E:\\reactBlog\\service\\config"
+2020-04-27 10:18:35,693 INFO 1092 [egg-watcher] Start watching: "E:\\reactBlog\\service\\mocks"
+2020-04-27 10:18:35,693 INFO 1092 [egg-watcher] Start watching: "E:\\reactBlog\\service\\mocks_proxy"
+2020-04-27 10:18:35,693 INFO 1092 [egg-watcher] Start watching: "E:\\reactBlog\\service\\app.js"
+2020-04-27 10:18:35,693 INFO 1092 [egg-watcher:agent] watcher start success
+2020-04-27 10:18:35,711 INFO 1092 [egg:core] dump config after ready, 7ms
+2020-05-04 11:28:13,758 INFO 13848 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-04 11:28:13,771 INFO 13848 [egg:core] dump config after load, 7ms
+2020-05-04 11:28:14,425 INFO 13848 [egg-watcher] Start watching: ["E:\\reactBlog\\service\\app","E:\\reactBlog\\service\\config","E:\\reactBlog\\service\\mocks","E:\\reactBlog\\service\\mocks_proxy","E:\\reactBlog\\service\\app.js"]
+2020-05-04 11:28:14,425 INFO 13848 [egg-watcher] Start watching: "E:\\reactBlog\\service\\app"
+2020-05-04 11:28:14,425 INFO 13848 [egg-watcher] Start watching: "E:\\reactBlog\\service\\config"
+2020-05-04 11:28:14,425 INFO 13848 [egg-watcher] Start watching: "E:\\reactBlog\\service\\mocks"
+2020-05-04 11:28:14,425 INFO 13848 [egg-watcher] Start watching: "E:\\reactBlog\\service\\mocks_proxy"
+2020-05-04 11:28:14,425 INFO 13848 [egg-watcher] Start watching: "E:\\reactBlog\\service\\app.js"
+2020-05-04 11:28:14,426 INFO 13848 [egg-watcher:agent] watcher start success
+2020-05-04 11:28:14,436 INFO 13848 [egg:core] dump config after ready, 5ms
+2020-05-04 11:28:58,697 INFO 5472 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-04 11:28:58,704 INFO 5472 [egg:core] dump config after load, 4ms
+2020-05-04 11:28:58,749 INFO 5472 [egg-watcher] Start watching: ["E:\\reactBlog\\service\\app","E:\\reactBlog\\service\\config","E:\\reactBlog\\service\\mocks","E:\\reactBlog\\service\\mocks_proxy","E:\\reactBlog\\service\\app.js"]
+2020-05-04 11:28:58,749 INFO 5472 [egg-watcher] Start watching: "E:\\reactBlog\\service\\app"
+2020-05-04 11:28:58,749 INFO 5472 [egg-watcher] Start watching: "E:\\reactBlog\\service\\config"
+2020-05-04 11:28:58,750 INFO 5472 [egg-watcher] Start watching: "E:\\reactBlog\\service\\mocks"
+2020-05-04 11:28:58,750 INFO 5472 [egg-watcher] Start watching: "E:\\reactBlog\\service\\mocks_proxy"
+2020-05-04 11:28:58,750 INFO 5472 [egg-watcher] Start watching: "E:\\reactBlog\\service\\app.js"
+2020-05-04 11:28:58,750 INFO 5472 [egg-watcher:agent] watcher start success
+2020-05-04 11:28:58,761 INFO 5472 [egg:core] dump config after ready, 6ms
+2020-05-04 12:44:14,529 ERROR 5472 nodejs.ClusterClientNoResponseError: client no response in 254598ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 5472
+hostname: AUUX0RJNSI27X9S
+
+2020-05-04 13:46:52,436 ERROR 5472 nodejs.ClusterClientNoResponseError: client no response in 3581195ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 5472
+hostname: AUUX0RJNSI27X9S
+
+2020-05-04 19:10:42,562 ERROR 5472 nodejs.ClusterClientNoResponseError: client no response in 3428247ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 5472
+hostname: AUUX0RJNSI27X9S
+
+2020-05-05 16:13:23,458 INFO 6776 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-05 16:13:23,466 INFO 6776 [egg:core] dump config after load, 3ms
+2020-05-05 16:13:23,805 INFO 6776 [egg-watcher] Start watching: ["E:\\reactBlog\\service\\app","E:\\reactBlog\\service\\config","E:\\reactBlog\\service\\mocks","E:\\reactBlog\\service\\mocks_proxy","E:\\reactBlog\\service\\app.js"]
+2020-05-05 16:13:23,806 INFO 6776 [egg-watcher] Start watching: "E:\\reactBlog\\service\\app"
+2020-05-05 16:13:23,806 INFO 6776 [egg-watcher] Start watching: "E:\\reactBlog\\service\\config"
+2020-05-05 16:13:23,806 INFO 6776 [egg-watcher] Start watching: "E:\\reactBlog\\service\\mocks"
+2020-05-05 16:13:23,806 INFO 6776 [egg-watcher] Start watching: "E:\\reactBlog\\service\\mocks_proxy"
+2020-05-05 16:13:23,806 INFO 6776 [egg-watcher] Start watching: "E:\\reactBlog\\service\\app.js"
+2020-05-05 16:13:23,807 INFO 6776 [egg-watcher:agent] watcher start success
+2020-05-05 16:13:23,818 INFO 6776 [egg:core] dump config after ready, 5ms
+2020-05-06 16:47:45,247 INFO 4816 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-06 16:47:45,263 INFO 4816 [egg:core] dump config after load, 8ms
+2020-05-06 16:47:45,706 INFO 4816 [egg-watcher] Start watching: ["E:\\reactBlog\\service\\app","E:\\reactBlog\\service\\config","E:\\reactBlog\\service\\mocks","E:\\reactBlog\\service\\mocks_proxy","E:\\reactBlog\\service\\app.js"]
+2020-05-06 16:47:45,706 INFO 4816 [egg-watcher] Start watching: "E:\\reactBlog\\service\\app"
+2020-05-06 16:47:45,706 INFO 4816 [egg-watcher] Start watching: "E:\\reactBlog\\service\\config"
+2020-05-06 16:47:45,706 INFO 4816 [egg-watcher] Start watching: "E:\\reactBlog\\service\\mocks"
+2020-05-06 16:47:45,706 INFO 4816 [egg-watcher] Start watching: "E:\\reactBlog\\service\\mocks_proxy"
+2020-05-06 16:47:45,706 INFO 4816 [egg-watcher] Start watching: "E:\\reactBlog\\service\\app.js"
+2020-05-06 16:47:45,707 INFO 4816 [egg-watcher:agent] watcher start success
+2020-05-06 16:47:45,728 INFO 4816 [egg:core] dump config after ready, 13ms
+2020-05-06 16:54:29,208 INFO 10036 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-06 16:54:29,219 INFO 10036 [egg:core] dump config after load, 6ms
+2020-05-06 16:54:29,283 INFO 10036 [egg-watcher] Start watching: ["E:\\reactBlog\\service\\app","E:\\reactBlog\\service\\config","E:\\reactBlog\\service\\mocks","E:\\reactBlog\\service\\mocks_proxy","E:\\reactBlog\\service\\app.js"]
+2020-05-06 16:54:29,283 INFO 10036 [egg-watcher] Start watching: "E:\\reactBlog\\service\\app"
+2020-05-06 16:54:29,283 INFO 10036 [egg-watcher] Start watching: "E:\\reactBlog\\service\\config"
+2020-05-06 16:54:29,283 INFO 10036 [egg-watcher] Start watching: "E:\\reactBlog\\service\\mocks"
+2020-05-06 16:54:29,283 INFO 10036 [egg-watcher] Start watching: "E:\\reactBlog\\service\\mocks_proxy"
+2020-05-06 16:54:29,283 INFO 10036 [egg-watcher] Start watching: "E:\\reactBlog\\service\\app.js"
+2020-05-06 16:54:29,284 INFO 10036 [egg-watcher:agent] watcher start success
+2020-05-06 16:54:29,297 INFO 10036 [egg:core] dump config after ready, 7ms
+2020-05-07 09:00:06,769 ERROR 10036 nodejs.ClusterClientNoResponseError: client no response in 52895917ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 10036
+hostname: AUUX0RJNSI27X9S
+

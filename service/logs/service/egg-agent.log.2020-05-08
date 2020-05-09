@@ -1,0 +1,17 @@
+2020-05-08 09:41:10,515 INFO 15400 [egg-logrotator] agent logger reload: got log-reload message
+2020-05-08 13:33:08,813 ERROR 15400 nodejs.ClusterClientNoResponseError: client no response in 2473656ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15400
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 08:58:53,784 ERROR 15400 nodejs.ClusterClientNoResponseError: client no response in 52064491ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15400
+hostname: AUUX0RJNSI27X9S
+

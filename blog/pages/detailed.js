@@ -4,8 +4,8 @@ import Header from '../components/Header'
 import Aurhor from '../components/Author'
 import '../public/style/pages/detailed.css'
 import axios from 'axios'
-import { Row, Col, Breadcrumb, Affix } from 'antd'
-import { HourglassOutlined, YoutubeOutlined, FireOutlined } from '@ant-design/icons'
+import { Row, Col, Breadcrumb, Affix, BackTop } from 'antd'
+import { HourglassOutlined, YoutubeOutlined, FireOutlined, RocketOutlined } from '@ant-design/icons'
 import marked from 'marked'
 import Tocify from '../components/tocify.tsx'
 import hljs from "highlight.js";
@@ -19,6 +19,8 @@ const Detailed = (props) => {
     const achor = tocift.add(text, level);
     return `<a id='${achor}' herf='#${achor}' class="anchor-fix"><h${level}>${text}</h${level}></a>\n`;
   }
+
+
   marked.setOptions({
     renderer: renderer,
     gfm: true,
@@ -33,7 +35,17 @@ const Detailed = (props) => {
     }
   })
   let html = marked(props.article_content)
-
+  const style = {
+    height: 40,
+    width: 40,
+    lineHeight: '40px',
+    borderRadius: 50,
+    backgroundColor: '#333',
+    color: '#fff',
+    opacity: .6,
+    textAlign: 'center',
+    fontSize: 20,
+  };
   return (
     <div>
       <Head>
@@ -54,9 +66,9 @@ const Detailed = (props) => {
               {props.title}
             </div>
             <div className='list-icon center'>
-              <span><HourglassOutlined />{props.addTime}</span>
-              <span><YoutubeOutlined />{props.typeName}</span>
-              <span><FireOutlined /> <CountUp end={props.view_count} />人</span>
+              <span className='icon-time'><HourglassOutlined />{props.addTime}</span>
+              <span className='icon-category'><YoutubeOutlined />{props.typeName}</span>
+              <span className='icon-numberpeople'><FireOutlined /> <CountUp end={props.view_count} />人</span>
             </div>
             <div className="detailed-content" dangerouslySetInnerHTML={{ __html: html }}>
               {/* <ReactMarkdown source={markdown} escapeHtml={false} /> */}
@@ -75,6 +87,9 @@ const Detailed = (props) => {
           </Affix>
         </Col>
       </Row>
+      {/* {
+        /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent) ? <BackTop ><RocketOutlined style={style} /></BackTop> : ''} */}
+
     </div>
   )
 }
@@ -82,7 +97,8 @@ Detailed.getInitialProps = async (context) => {
   let id = context.query.id
   const promise = new Promise((resolve) => {
     axios(servicePath.getArticleById + id).then(res => {
-      resolve(res.data.data[0])
+      const list = [res.data.data]
+      resolve(list[0])
     })
   })
   return await promise

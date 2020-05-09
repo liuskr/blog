@@ -2,7 +2,7 @@ import React from 'react'
 import '../public/style/components/header.css'
 import { Row, Col, Menu } from 'antd'
 import Link from 'next/link'
-import { ContainerOutlined, CrownOutlined, PlaySquareOutlined, SmileOutlined } from '@ant-design/icons'
+import { RadarChartOutlined, AreaChartOutlined, CrownOutlined, PlaySquareOutlined } from '@ant-design/icons'
 
 const Header = () => {
 
@@ -12,42 +12,42 @@ const Header = () => {
 
       <Row type="flex" justify="center" >
         <Col xs={24} sm={24} md={8} lg={10} xl={7}>
-          <div className='text logo' >Welcome</div>
+          <div className='text logo' >Stone</div>
           <div className='text text2'>
-            <span>Come to my personal blog</span>
+            <span>一个热爱编程的小菜鸟</span>
           </div>
         </Col>
         <Col xs={0} sm={0} md={14} lg={12} xl={8} className="memu-div">
           <Menu mode="horizontal" >
-            <Menu.Item key="mail">
-              <Link href={{ pathname: '/' }}>
+            <Menu.Item key="mail" className='ftz'>
+              <Link href={{ pathname: '/' }} >
                 <a>
-                  <CrownOutlined />
+                  <CrownOutlined className='ftz' />
                     首页
                </a>
               </Link>
             </Menu.Item>
-            <Menu.Item key="mails">
+            <Menu.Item key="mails" className='ftz'>
               <Link href={{ pathname: '/list', query: { id: 1 } }}>
                 <a>
-                  <PlaySquareOutlined />
-                    最新番剧
+                  <PlaySquareOutlined className='ftz' />
+                    JavaScript
                </a>
               </Link>
             </Menu.Item>
-            <Menu.Item key="maild">
+            <Menu.Item key="maild" className='ftz'>
               <Link href={{ pathname: '/list', query: { id: 2 } }}>
                 <a>
-                  <ContainerOutlined />
-                    经典情怀
+                  <AreaChartOutlined className='ftz' />
+                    Python
                </a>
               </Link>
             </Menu.Item>
-            <Menu.Item key="mailq">
+            <Menu.Item key="mailq" className='ftz'>
               <Link href={{ pathname: '/list', query: { id: 3 } }}>
                 <a>
-                  <SmileOutlined />
-                    快乐生活
+                  <RadarChartOutlined className='ftz' />
+                   Java
                </a>
               </Link>
             </Menu.Item>

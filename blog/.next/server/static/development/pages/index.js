@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -311,7 +311,7 @@ const Header = () => {
       lineNumber: 15,
       columnNumber: 11
     }
-  }, "Welcome"), __jsx("div", {
+  }, "Stone"), __jsx("div", {
     className: "text text2",
     __self: undefined,
     __source: {
@@ -326,7 +326,7 @@ const Header = () => {
       lineNumber: 17,
       columnNumber: 13
     }
-  }, "Come to my personal blog"))), __jsx(antd_lib_col__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }, "\u4E00\u4E2A\u70ED\u7231\u7F16\u7A0B\u7684\u5C0F\u83DC\u9E1F"))), __jsx(antd_lib_col__WEBPACK_IMPORTED_MODULE_2___default.a, {
     xs: 0,
     sm: 0,
     md: 14,
@@ -349,6 +349,7 @@ const Header = () => {
     }
   }, __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
     key: "mail",
+    className: "ftz",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -373,6 +374,7 @@ const Header = () => {
       columnNumber: 17
     }
   }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_6__["CrownOutlined"], {
+    className: "ftz",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -381,6 +383,7 @@ const Header = () => {
     }
   }), "\u9996\u9875"))), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
     key: "mails",
+    className: "ftz",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -408,14 +411,16 @@ const Header = () => {
       columnNumber: 17
     }
   }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_6__["PlaySquareOutlined"], {
+    className: "ftz",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33,
       columnNumber: 19
     }
-  }), "\u6700\u65B0\u756A\u5267"))), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
+  }), "JavaScript"))), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
     key: "maild",
+    className: "ftz",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -442,15 +447,17 @@ const Header = () => {
       lineNumber: 40,
       columnNumber: 17
     }
-  }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_6__["ContainerOutlined"], {
+  }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_6__["AreaChartOutlined"], {
+    className: "ftz",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41,
       columnNumber: 19
     }
-  }), "\u7ECF\u5178\u60C5\u6000"))), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
+  }), "Python"))), __jsx(antd_lib_menu__WEBPACK_IMPORTED_MODULE_1___default.a.Item, {
     key: "mailq",
+    className: "ftz",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
@@ -477,14 +484,15 @@ const Header = () => {
       lineNumber: 48,
       columnNumber: 17
     }
-  }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_6__["SmileOutlined"], {
+  }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_6__["RadarChartOutlined"], {
+    className: "ftz",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 49,
       columnNumber: 19
     }
-  }), "\u5FEB\u4E50\u751F\u6D3B")))))));
+  }), "Java")))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -2449,42 +2457,45 @@ if (false) {} else {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/row */ "antd/lib/row");
-/* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_row__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/col */ "antd/lib/col");
-/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_col__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var antd_lib_spin__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/spin */ "antd/lib/spin");
-/* harmony import */ var antd_lib_spin__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_spin__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var antd_lib_list__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/list */ "antd/lib/list");
-/* harmony import */ var antd_lib_list__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_list__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var antd_lib_affix__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! antd/lib/affix */ "antd/lib/affix");
-/* harmony import */ var antd_lib_affix__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(antd_lib_affix__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! axios */ "axios");
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/head */ "next/head");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
-/* harmony import */ var _components_Author__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Author */ "./components/Author.js");
-/* harmony import */ var _config_api__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../config/api */ "./config/api.js");
-/* harmony import */ var marked__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! marked */ "marked");
-/* harmony import */ var marked__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(marked__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _public_style_pages_index_css__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../public/style/pages/index.css */ "./public/style/pages/index.css");
-/* harmony import */ var _public_style_pages_index_css__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_public_style_pages_index_css__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var react_countup__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-countup */ "react-countup");
-/* harmony import */ var react_countup__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react_countup__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _ant_design_icons__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @ant-design/icons */ "@ant-design/icons");
-/* harmony import */ var _ant_design_icons__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_ant_design_icons__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var antd_lib_back_top__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! antd/lib/back-top */ "antd/lib/back-top");
+/* harmony import */ var antd_lib_back_top__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(antd_lib_back_top__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! antd/lib/row */ "antd/lib/row");
+/* harmony import */ var antd_lib_row__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(antd_lib_row__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! antd/lib/col */ "antd/lib/col");
+/* harmony import */ var antd_lib_col__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(antd_lib_col__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var antd_lib_spin__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! antd/lib/spin */ "antd/lib/spin");
+/* harmony import */ var antd_lib_spin__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(antd_lib_spin__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var antd_lib_list__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! antd/lib/list */ "antd/lib/list");
+/* harmony import */ var antd_lib_list__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(antd_lib_list__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var antd_lib_affix__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! antd/lib/affix */ "antd/lib/affix");
+/* harmony import */ var antd_lib_affix__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(antd_lib_affix__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! axios */ "axios");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
+/* harmony import */ var _components_Author__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/Author */ "./components/Author.js");
+/* harmony import */ var _config_api__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../config/api */ "./config/api.js");
+/* harmony import */ var marked__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! marked */ "marked");
+/* harmony import */ var marked__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(marked__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _public_style_pages_index_css__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../public/style/pages/index.css */ "./public/style/pages/index.css");
+/* harmony import */ var _public_style_pages_index_css__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_public_style_pages_index_css__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var react_countup__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! react-countup */ "react-countup");
+/* harmony import */ var react_countup__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(react_countup__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var _ant_design_icons__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @ant-design/icons */ "@ant-design/icons");
+/* harmony import */ var _ant_design_icons__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_ant_design_icons__WEBPACK_IMPORTED_MODULE_16__);
+
 
 
 
 
 
 var _jsxFileName = "E:\\reactBlog\\blog\\pages\\index.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 
 
 
@@ -2497,22 +2508,22 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
 
 
-const Home = list => {
+const Home = props => {
   const {
     0: mylist,
     1: setList
-  } = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])(list.data);
+  } = Object(react__WEBPACK_IMPORTED_MODULE_6__["useState"])(props.data);
   const {
     0: loading,
     1: setLoading
-  } = Object(react__WEBPACK_IMPORTED_MODULE_5__["useState"])(false);
-  const renderer = new marked__WEBPACK_IMPORTED_MODULE_12___default.a.Renderer();
+  } = Object(react__WEBPACK_IMPORTED_MODULE_6__["useState"])(false);
+  const renderer = new marked__WEBPACK_IMPORTED_MODULE_13___default.a.Renderer();
 
   const goLoading = () => {
     setLoading(true);
   };
 
-  marked__WEBPACK_IMPORTED_MODULE_12___default.a.setOptions({
+  marked__WEBPACK_IMPORTED_MODULE_13___default.a.setOptions({
     renderer: renderer,
     gfm: true,
     pedantic: false,
@@ -2524,52 +2535,63 @@ const Home = list => {
     sanitize: false,
     xhtml: false
   });
+  const style = {
+    height: 40,
+    width: 40,
+    lineHeight: '40px',
+    borderRadius: 50,
+    backgroundColor: '#333',
+    color: '#fff',
+    opacity: .6,
+    textAlign: 'center',
+    fontSize: 20
+  };
   return __jsx("div", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35,
+      lineNumber: 45,
       columnNumber: 5
     }
-  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_7___default.a, {
+  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_8___default.a, {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36,
+      lineNumber: 46,
       columnNumber: 7
     }
   }, __jsx("title", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37,
+      lineNumber: 47,
       columnNumber: 9
     }
-  }, "\u9996\u9875")), __jsx(antd_lib_affix__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  }, "\u9996\u9875")), __jsx(antd_lib_affix__WEBPACK_IMPORTED_MODULE_5___default.a, {
     offsetTop: 0,
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39,
+      lineNumber: 49,
       columnNumber: 7
     }
-  }, __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_9__["default"], {
+  }, __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_10__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40,
+      lineNumber: 50,
       columnNumber: 9
     }
-  })), __jsx(antd_lib_row__WEBPACK_IMPORTED_MODULE_0___default.a, {
+  })), __jsx(antd_lib_row__WEBPACK_IMPORTED_MODULE_1___default.a, {
     className: "comm-main",
     justify: "center",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42,
+      lineNumber: 52,
       columnNumber: 7
     }
-  }, __jsx(antd_lib_col__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, __jsx(antd_lib_col__WEBPACK_IMPORTED_MODULE_2___default.a, {
     className: "comm-left",
     xs: 24,
     sm: 24,
@@ -2579,34 +2601,35 @@ const Home = list => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43,
+      lineNumber: 53,
       columnNumber: 9
     }
-  }, __jsx(antd_lib_list__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  }, __jsx(antd_lib_list__WEBPACK_IMPORTED_MODULE_4___default.a, {
     header: __jsx("div", {
       className: "comm-title",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 45,
+        lineNumber: 55,
         columnNumber: 21
       }
     }, "\u6700\u65B0\u53D1\u8868"),
     dataSource: mylist,
     itemLayout: "vertical",
-    renderItem: item => __jsx(antd_lib_spin__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    split: true,
+    renderItem: item => __jsx(antd_lib_spin__WEBPACK_IMPORTED_MODULE_3___default.a, {
       spinning: loading,
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 49,
+        lineNumber: 60,
         columnNumber: 15
       }
-    }, __jsx(antd_lib_list__WEBPACK_IMPORTED_MODULE_3___default.a.Item, {
+    }, __jsx(antd_lib_list__WEBPACK_IMPORTED_MODULE_4___default.a.Item, {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 50,
+        lineNumber: 61,
         columnNumber: 17
       }
     }, __jsx("div", {
@@ -2615,10 +2638,10 @@ const Home = list => {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 51,
+        lineNumber: 62,
         columnNumber: 19
       }
-    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
       href: {
         pathname: '/detailed',
         query: {
@@ -2628,14 +2651,14 @@ const Home = list => {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 52,
+        lineNumber: 63,
         columnNumber: 21
       }
     }, __jsx("a", {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 53,
+        lineNumber: 64,
         columnNumber: 23
       }
     }, item.title))), __jsx("div", {
@@ -2643,87 +2666,81 @@ const Home = list => {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 56,
+        lineNumber: 67,
         columnNumber: 19
       }
     }, __jsx("span", {
+      className: "icon-time",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57,
+        lineNumber: 68,
         columnNumber: 21
       }
-    }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_15__["CarryOutOutlined"], {
+    }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_16__["CarryOutOutlined"], {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 57,
-        columnNumber: 27
+        lineNumber: 68,
+        columnNumber: 49
       }
     }), item.addTime), __jsx("span", {
-      style: {
-        color: '#00a1d6'
-      },
+      className: "icon-category",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58,
+        lineNumber: 69,
         columnNumber: 21
       }
-    }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_15__["YoutubeOutlined"], {
+    }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_16__["YoutubeOutlined"], {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 58,
-        columnNumber: 56
+        lineNumber: 69,
+        columnNumber: 53
       }
     }), item.typeName), __jsx("span", {
-      style: {
-        color: 'red'
-      },
+      className: "icon-numberpeople",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59,
+        lineNumber: 70,
         columnNumber: 21
       }
-    }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_15__["FireOutlined"], {
-      style: {
-        color: 'red'
-      },
+    }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_16__["FireOutlined"], {
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59,
-        columnNumber: 52
+        lineNumber: 70,
+        columnNumber: 58
       }
-    }), __jsx(react_countup__WEBPACK_IMPORTED_MODULE_14___default.a, {
+    }), __jsx(react_countup__WEBPACK_IMPORTED_MODULE_15___default.a, {
       end: item.view_count,
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 59,
-        columnNumber: 93
+        lineNumber: 70,
+        columnNumber: 74
       }
     }), "\u4EBA ")), __jsx("div", {
       className: "list-context",
       dangerouslySetInnerHTML: {
-        __html: marked__WEBPACK_IMPORTED_MODULE_12___default()(item.introduce)
+        __html: marked__WEBPACK_IMPORTED_MODULE_13___default()(item.introduce)
       },
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 61,
+        lineNumber: 72,
         columnNumber: 19
       }
-    })), "    "),
+    }))),
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44,
+      lineNumber: 54,
       columnNumber: 11
     }
-  })), __jsx(antd_lib_col__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  })), __jsx(antd_lib_col__WEBPACK_IMPORTED_MODULE_2___default.a, {
     className: "comm-right",
     xs: 0,
     sm: 0,
@@ -2733,22 +2750,38 @@ const Home = list => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 66,
+      lineNumber: 80,
       columnNumber: 9
     }
-  }, __jsx(_components_Author__WEBPACK_IMPORTED_MODULE_10__["default"], {
+  }, __jsx(_components_Author__WEBPACK_IMPORTED_MODULE_11__["default"], {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 67,
+      lineNumber: 81,
       columnNumber: 11
     }
-  }))));
+  }))), __jsx(antd_lib_back_top__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84,
+      columnNumber: 7
+    }
+  }, __jsx(_ant_design_icons__WEBPACK_IMPORTED_MODULE_16__["RocketOutlined"], {
+    style: style,
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85,
+      columnNumber: 9
+    }
+  })));
 };
 
 Home.getInitialProps = async () => {
   const promise = new Promise(resolve => {
-    axios__WEBPACK_IMPORTED_MODULE_6___default()(_config_api__WEBPACK_IMPORTED_MODULE_11__["default"].getArticleList).then(res => {
+    axios__WEBPACK_IMPORTED_MODULE_7___default()(_config_api__WEBPACK_IMPORTED_MODULE_12__["default"].getArticleList).then(res => {
+      console.log(res.data);
       resolve(res.data);
     });
   });
@@ -2792,7 +2825,7 @@ Home.getInitialProps = async () => {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -2834,6 +2867,17 @@ module.exports = require("antd/lib/affix");
 /***/ (function(module, exports) {
 
 module.exports = require("antd/lib/avatar");
+
+/***/ }),
+
+/***/ "antd/lib/back-top":
+/*!************************************!*\
+  !*** external "antd/lib/back-top" ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("antd/lib/back-top");
 
 /***/ }),
 

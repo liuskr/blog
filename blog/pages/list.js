@@ -55,6 +55,7 @@ const myList = (list) => {
             header={<div className='comm-title'>{ilist[0].typeName}</div>}
             dataSource={ilist}
             itemLayout='vertical'
+            split
             renderItem={item =>
               <Spin spinning={loading}>
                 <List.Item>
@@ -64,9 +65,9 @@ const myList = (list) => {
                     </Link>
                   </div>
                   <div className='list-icon'>
-                    <span><CarryOutOutlined />{item.addTime}</span>
-                    <span style={{ color: '#00a1d6' }}><YoutubeOutlined />{item.typeName}</span>
-                    <span style={{ color: 'red' }}><FireOutlined /><CountUp end={item.view_count} />人 </span>
+                    <span className='icon-time'><CarryOutOutlined />{item.addTime}</span>
+                    <span className='icon-category'><YoutubeOutlined />{item.typeName}</span>
+                    <span className='icon-numberpeople'><FireOutlined /><CountUp end={item.view_count} />人 </span>
                   </div>
                   <div className='list-context' dangerouslySetInnerHTML={{ __html: marked(item.introduce) }}>
                   </div>

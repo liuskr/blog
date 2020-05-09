@@ -15,3 +15,24 @@
   display: inline-block;
   padding: 0 4px;
 }
+.disp{
+  display: block;
+}
+.disn{
+  display: none;
+}
+.icon-time{
+  color: #00a1d6;
+}
+.icon-category{
+  color: #00a1d6;
+}
+.icon-numberpeople{
+  color:  #F4606C
+}
+.ant-spin-nested-loading{
+  border-bottom: 1px solid #cccc;
+}
+.ant-spin-nested-loading:last-child{
+  border-bottom: none;
+}

@@ -1,0 +1,27 @@
+2020-05-07 09:00:13,595 INFO 10036 [egg-logrotator] agent logger reload: got log-reload message
+2020-05-07 11:23:02,549 INFO 15400 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-07 11:23:02,557 INFO 15400 [egg:core] dump config after load, 4ms
+2020-05-07 11:23:02,605 INFO 15400 [egg-watcher] Start watching: ["E:\\reactBlog\\service\\app","E:\\reactBlog\\service\\config","E:\\reactBlog\\service\\mocks","E:\\reactBlog\\service\\mocks_proxy","E:\\reactBlog\\service\\app.js"]
+2020-05-07 11:23:02,605 INFO 15400 [egg-watcher] Start watching: "E:\\reactBlog\\service\\app"
+2020-05-07 11:23:02,606 INFO 15400 [egg-watcher] Start watching: "E:\\reactBlog\\service\\config"
+2020-05-07 11:23:02,606 INFO 15400 [egg-watcher] Start watching: "E:\\reactBlog\\service\\mocks"
+2020-05-07 11:23:02,606 INFO 15400 [egg-watcher] Start watching: "E:\\reactBlog\\service\\mocks_proxy"
+2020-05-07 11:23:02,607 INFO 15400 [egg-watcher] Start watching: "E:\\reactBlog\\service\\app.js"
+2020-05-07 11:23:02,607 INFO 15400 [egg-watcher:agent] watcher start success
+2020-05-07 11:23:02,624 INFO 15400 [egg:core] dump config after ready, 9ms
+2020-05-07 19:37:03,610 ERROR 15400 nodejs.ClusterClientNoResponseError: client no response in 3919300ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15400
+hostname: AUUX0RJNSI27X9S
+
+2020-05-08 09:40:54,017 ERROR 15400 nodejs.ClusterClientNoResponseError: client no response in 48795834ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 15400
+hostname: AUUX0RJNSI27X9S
+
