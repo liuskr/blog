@@ -1,0 +1,11 @@
+2020-05-15 09:01:05,456 INFO 26104 [egg-logrotator] app logger reload: got log-reload message
+2020-05-15 12:58:29,505 WARN 26104 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-05-15 12:58:29,541 WARN 26104 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-15 13:44:10,702 WARN 26104 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-05-15 13:44:10,750 WARN 26104 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-16 08:58:40,175 WARN 26104 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-16 08:58:40,534 INFO 26104 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=E:\reactBlog\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\Administrator\\AppData\\Local\\Temp\\egg-multipart-tmp\\service"
+2020-05-16 08:58:40,543 INFO 26104 [egg-logrotator] clean all log before 31 days
+2020-05-16 08:58:40,546 INFO 26104 [-/127.0.0.1/-/13ms SCHEDULE /__schedule?path=E:\reactBlog\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-05-16 08:58:49,487 INFO 26104 [egg-logrotator] broadcast log-reload
+2020-05-16 08:58:49,487 INFO 26104 [egg-logrotator] rotate files success by DayRotator, files ["E:\\reactBlog\\service\\logs\\service\\common-error.log -> E:\\reactBlog\\service\\logs\\service\\common-error.log.2020-05-15","E:\\reactBlog\\service\\logs\\service\\service-web.log -> E:\\reactBlog\\service\\logs\\service\\service-web.log.2020-05-15","E:\\reactBlog\\service\\logs\\service\\egg-web.log -> E:\\reactBlog\\service\\logs\\service\\egg-web.log.2020-05-15","E:\\reactBlog\\service\\logs\\service\\egg-schedule.log -> E:\\reactBlog\\service\\logs\\service\\egg-schedule.log.2020-05-15","E:\\reactBlog\\service\\logs\\service\\egg-agent.log -> E:\\reactBlog\\service\\logs\\service\\egg-agent.log.2020-05-15"]

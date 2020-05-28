@@ -1,0 +1,9 @@
+2020-05-16 08:58:40,524 INFO 26104 [Job#15895907201759492557876598892] E:\reactBlog\service\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2020-05-16 08:58:40,530 INFO 26104 [Job#15895907201849492557963546732] E:\reactBlog\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2020-05-16 08:58:40,533 INFO 26104 [Job#15895907201899492558007854582] E:\reactBlog\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2020-05-16 08:58:40,543 INFO 26104 [Job#15895907201759492557876598892] E:\reactBlog\service\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 18ms
+2020-05-16 08:58:40,546 INFO 26104 [Job#15895907201899492558007854582] E:\reactBlog\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 13ms
+2020-05-16 08:58:40,184 INFO 23712 [Timer] E:\reactBlog\service\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 54079822ms at 2020-05-17 00:00:00.006
+2020-05-16 08:58:40,189 INFO 23712 [Timer] E:\reactBlog\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 54080815ms at 2020-05-17 00:00:01.004
+2020-05-16 08:58:40,197 INFO 23712 [Timer] E:\reactBlog\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 70279811ms at 2020-05-17 04:30:00.008
+2020-05-16 08:58:49,487 INFO 26104 [Job#15895907201849492557963546732] E:\reactBlog\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 8956ms

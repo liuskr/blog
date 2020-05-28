@@ -1,0 +1,16 @@
+2020-05-11 13:23:33,929 ERROR 12896 nodejs.ClusterClientNoResponseError: client no response in 2488222ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 12896
+hostname: AUUX0RJNSI27X9S
+
+2020-05-12 09:01:43,190 ERROR 12896 nodejs.ClusterClientNoResponseError: client no response in 53207812ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 12896
+hostname: AUUX0RJNSI27X9S
+

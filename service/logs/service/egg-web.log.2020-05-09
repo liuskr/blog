@@ -1,0 +1,1254 @@
+2020-05-09 08:59:00,745 INFO 18104 [egg-logrotator] app logger reload: got log-reload message
+2020-05-09 10:28:15,228 INFO 21016 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 10:28:15,382 INFO 21016 [egg-multipart] stream mode enable
+2020-05-09 10:28:15,383 INFO 21016 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 10:28:16,345 INFO 21016 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 10:28:16,349 INFO 21016 [egg-security] use methodnoallow middleware
+2020-05-09 10:28:16,349 INFO 21016 [egg-security] use noopen middleware
+2020-05-09 10:28:16,350 INFO 21016 [egg-security] use nosniff middleware
+2020-05-09 10:28:16,350 INFO 21016 [egg-security] use xssProtection middleware
+2020-05-09 10:28:16,351 INFO 21016 [egg-security] use xframe middleware
+2020-05-09 10:28:16,357 INFO 21016 [egg-security] use dta middleware
+2020-05-09 10:28:16,357 INFO 21016 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 10:28:16,370 INFO 21016 [egg:core] dump config after load, 5ms
+2020-05-09 10:28:16,387 INFO 21016 [egg-watcher:application] watcher start success
+2020-05-09 10:28:16,422 INFO 21016 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 10:28:16 GMT+0800 (GMT+08:00)
+2020-05-09 10:28:16,430 INFO 21016 [egg:core] dump config after ready, 7ms
+2020-05-09 10:38:30,415 INFO 1636 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 10:38:30,451 INFO 1636 [egg-multipart] stream mode enable
+2020-05-09 10:38:30,452 INFO 1636 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 10:38:30,572 INFO 1636 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 10:38:30,576 INFO 1636 [egg-security] use methodnoallow middleware
+2020-05-09 10:38:30,577 INFO 1636 [egg-security] use noopen middleware
+2020-05-09 10:38:30,578 INFO 1636 [egg-security] use nosniff middleware
+2020-05-09 10:38:30,579 INFO 1636 [egg-security] use xssProtection middleware
+2020-05-09 10:38:30,580 INFO 1636 [egg-security] use xframe middleware
+2020-05-09 10:38:30,580 INFO 1636 [egg-security] use dta middleware
+2020-05-09 10:38:30,581 INFO 1636 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 10:38:30,594 INFO 1636 [egg:core] dump config after load, 5ms
+2020-05-09 10:38:30,611 INFO 1636 [egg-watcher:application] watcher start success
+2020-05-09 10:38:30,618 INFO 1636 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 10:38:30 GMT+0800 (GMT+08:00)
+2020-05-09 10:38:30,627 INFO 1636 [egg:core] dump config after ready, 7ms
+2020-05-09 10:39:01,202 INFO 27448 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 10:39:01,227 INFO 27448 [egg-multipart] stream mode enable
+2020-05-09 10:39:01,227 INFO 27448 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 10:39:01,343 INFO 27448 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 10:39:01,345 INFO 27448 [egg-security] use methodnoallow middleware
+2020-05-09 10:39:01,346 INFO 27448 [egg-security] use noopen middleware
+2020-05-09 10:39:01,346 INFO 27448 [egg-security] use nosniff middleware
+2020-05-09 10:39:01,347 INFO 27448 [egg-security] use xssProtection middleware
+2020-05-09 10:39:01,347 INFO 27448 [egg-security] use xframe middleware
+2020-05-09 10:39:01,348 INFO 27448 [egg-security] use dta middleware
+2020-05-09 10:39:01,348 INFO 27448 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 10:39:01,359 INFO 27448 [egg:core] dump config after load, 5ms
+2020-05-09 10:39:01,375 INFO 27448 [egg-watcher:application] watcher start success
+2020-05-09 10:39:01,380 INFO 27448 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 10:39:01 GMT+0800 (GMT+08:00)
+2020-05-09 10:39:01,390 INFO 27448 [egg:core] dump config after ready, 8ms
+2020-05-09 10:39:19,146 INFO 14684 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 10:39:19,174 INFO 14684 [egg-multipart] stream mode enable
+2020-05-09 10:39:19,174 INFO 14684 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 10:39:19,305 INFO 14684 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 10:39:19,308 INFO 14684 [egg-security] use methodnoallow middleware
+2020-05-09 10:39:19,309 INFO 14684 [egg-security] use noopen middleware
+2020-05-09 10:39:19,310 INFO 14684 [egg-security] use nosniff middleware
+2020-05-09 10:39:19,311 INFO 14684 [egg-security] use xssProtection middleware
+2020-05-09 10:39:19,312 INFO 14684 [egg-security] use xframe middleware
+2020-05-09 10:39:19,312 INFO 14684 [egg-security] use dta middleware
+2020-05-09 10:39:19,312 INFO 14684 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 10:39:19,327 INFO 14684 [egg:core] dump config after load, 6ms
+2020-05-09 10:39:19,349 INFO 14684 [egg-watcher:application] watcher start success
+2020-05-09 10:39:19,356 INFO 14684 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 10:39:19 GMT+0800 (GMT+08:00)
+2020-05-09 10:39:19,365 INFO 14684 [egg:core] dump config after ready, 7ms
+2020-05-09 10:40:15,446 INFO 18084 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 10:40:15,477 INFO 18084 [egg-multipart] stream mode enable
+2020-05-09 10:40:15,477 INFO 18084 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 10:40:15,599 INFO 18084 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 10:40:15,601 INFO 18084 [egg-security] use methodnoallow middleware
+2020-05-09 10:40:15,601 INFO 18084 [egg-security] use noopen middleware
+2020-05-09 10:40:15,603 INFO 18084 [egg-security] use nosniff middleware
+2020-05-09 10:40:15,603 INFO 18084 [egg-security] use xssProtection middleware
+2020-05-09 10:40:15,604 INFO 18084 [egg-security] use xframe middleware
+2020-05-09 10:40:15,604 INFO 18084 [egg-security] use dta middleware
+2020-05-09 10:40:15,605 INFO 18084 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 10:40:15,615 INFO 18084 [egg:core] dump config after load, 5ms
+2020-05-09 10:40:15,635 INFO 18084 [egg-watcher:application] watcher start success
+2020-05-09 10:40:15,642 INFO 18084 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 10:40:15 GMT+0800 (GMT+08:00)
+2020-05-09 10:40:15,649 INFO 18084 [egg:core] dump config after ready, 6ms
+2020-05-09 10:40:39,671 INFO 27248 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 10:40:39,701 INFO 27248 [egg-multipart] stream mode enable
+2020-05-09 10:40:39,701 INFO 27248 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 10:40:39,811 INFO 27248 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 10:40:39,813 INFO 27248 [egg-security] use methodnoallow middleware
+2020-05-09 10:40:39,814 INFO 27248 [egg-security] use noopen middleware
+2020-05-09 10:40:39,814 INFO 27248 [egg-security] use nosniff middleware
+2020-05-09 10:40:39,815 INFO 27248 [egg-security] use xssProtection middleware
+2020-05-09 10:40:39,816 INFO 27248 [egg-security] use xframe middleware
+2020-05-09 10:40:39,816 INFO 27248 [egg-security] use dta middleware
+2020-05-09 10:40:39,816 INFO 27248 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 10:40:39,828 INFO 27248 [egg:core] dump config after load, 5ms
+2020-05-09 10:40:39,845 INFO 27248 [egg-watcher:application] watcher start success
+2020-05-09 10:40:39,849 INFO 27248 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 10:40:39 GMT+0800 (GMT+08:00)
+2020-05-09 10:40:39,857 INFO 27248 [egg:core] dump config after ready, 6ms
+2020-05-09 10:53:02,586 INFO 15240 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 10:53:02,614 INFO 15240 [egg-multipart] stream mode enable
+2020-05-09 10:53:02,614 INFO 15240 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 10:53:02,741 INFO 15240 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 10:53:02,744 INFO 15240 [egg-security] use methodnoallow middleware
+2020-05-09 10:53:02,745 INFO 15240 [egg-security] use noopen middleware
+2020-05-09 10:53:02,745 INFO 15240 [egg-security] use nosniff middleware
+2020-05-09 10:53:02,746 INFO 15240 [egg-security] use xssProtection middleware
+2020-05-09 10:53:02,747 INFO 15240 [egg-security] use xframe middleware
+2020-05-09 10:53:02,747 INFO 15240 [egg-security] use dta middleware
+2020-05-09 10:53:02,747 INFO 15240 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 10:53:02,762 INFO 15240 [egg:core] dump config after load, 6ms
+2020-05-09 10:53:02,783 INFO 15240 [egg-watcher:application] watcher start success
+2020-05-09 10:53:02,788 INFO 15240 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 10:53:02 GMT+0800 (GMT+08:00)
+2020-05-09 10:53:02,796 INFO 15240 [egg:core] dump config after ready, 6ms
+2020-05-09 10:55:00,567 INFO 9928 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 10:55:00,597 INFO 9928 [egg-multipart] stream mode enable
+2020-05-09 10:55:00,598 INFO 9928 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 10:55:00,723 INFO 9928 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 10:55:00,725 INFO 9928 [egg-security] use methodnoallow middleware
+2020-05-09 10:55:00,726 INFO 9928 [egg-security] use noopen middleware
+2020-05-09 10:55:00,726 INFO 9928 [egg-security] use nosniff middleware
+2020-05-09 10:55:00,727 INFO 9928 [egg-security] use xssProtection middleware
+2020-05-09 10:55:00,727 INFO 9928 [egg-security] use xframe middleware
+2020-05-09 10:55:00,728 INFO 9928 [egg-security] use dta middleware
+2020-05-09 10:55:00,728 INFO 9928 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 10:55:00,741 INFO 9928 [egg:core] dump config after load, 6ms
+2020-05-09 10:55:00,764 INFO 9928 [egg-watcher:application] watcher start success
+2020-05-09 10:55:00,770 INFO 9928 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 10:55:00 GMT+0800 (GMT+08:00)
+2020-05-09 10:55:00,780 INFO 9928 [egg:core] dump config after ready, 8ms
+2020-05-09 10:55:20,547 INFO 9188 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 10:55:20,573 INFO 9188 [egg-multipart] stream mode enable
+2020-05-09 10:55:20,574 INFO 9188 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 10:55:20,691 INFO 9188 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 10:55:20,694 INFO 9188 [egg-security] use methodnoallow middleware
+2020-05-09 10:55:20,694 INFO 9188 [egg-security] use noopen middleware
+2020-05-09 10:55:20,695 INFO 9188 [egg-security] use nosniff middleware
+2020-05-09 10:55:20,695 INFO 9188 [egg-security] use xssProtection middleware
+2020-05-09 10:55:20,696 INFO 9188 [egg-security] use xframe middleware
+2020-05-09 10:55:20,696 INFO 9188 [egg-security] use dta middleware
+2020-05-09 10:55:20,696 INFO 9188 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 10:55:20,707 INFO 9188 [egg:core] dump config after load, 5ms
+2020-05-09 10:55:20,729 INFO 9188 [egg-watcher:application] watcher start success
+2020-05-09 10:55:20,735 INFO 9188 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 10:55:20 GMT+0800 (GMT+08:00)
+2020-05-09 10:55:20,743 INFO 9188 [egg:core] dump config after ready, 7ms
+2020-05-09 10:56:21,450 INFO 14984 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 10:56:21,476 INFO 14984 [egg-multipart] stream mode enable
+2020-05-09 10:56:21,476 INFO 14984 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 10:56:21,599 INFO 14984 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 10:56:21,601 INFO 14984 [egg-security] use methodnoallow middleware
+2020-05-09 10:56:21,601 INFO 14984 [egg-security] use noopen middleware
+2020-05-09 10:56:21,602 INFO 14984 [egg-security] use nosniff middleware
+2020-05-09 10:56:21,602 INFO 14984 [egg-security] use xssProtection middleware
+2020-05-09 10:56:21,603 INFO 14984 [egg-security] use xframe middleware
+2020-05-09 10:56:21,604 INFO 14984 [egg-security] use dta middleware
+2020-05-09 10:56:21,604 INFO 14984 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 10:56:21,615 INFO 14984 [egg:core] dump config after load, 4ms
+2020-05-09 10:56:21,641 INFO 14984 [egg-watcher:application] watcher start success
+2020-05-09 10:56:21,646 INFO 14984 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 10:56:21 GMT+0800 (GMT+08:00)
+2020-05-09 10:56:21,654 INFO 14984 [egg:core] dump config after ready, 6ms
+2020-05-09 10:57:11,118 INFO 27000 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 10:57:11,142 INFO 27000 [egg-multipart] stream mode enable
+2020-05-09 10:57:11,143 INFO 27000 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 10:57:11,248 INFO 27000 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 10:57:11,250 INFO 27000 [egg-security] use methodnoallow middleware
+2020-05-09 10:57:11,250 INFO 27000 [egg-security] use noopen middleware
+2020-05-09 10:57:11,251 INFO 27000 [egg-security] use nosniff middleware
+2020-05-09 10:57:11,251 INFO 27000 [egg-security] use xssProtection middleware
+2020-05-09 10:57:11,252 INFO 27000 [egg-security] use xframe middleware
+2020-05-09 10:57:11,252 INFO 27000 [egg-security] use dta middleware
+2020-05-09 10:57:11,252 INFO 27000 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 10:57:11,264 INFO 27000 [egg:core] dump config after load, 5ms
+2020-05-09 10:57:11,281 INFO 27000 [egg-watcher:application] watcher start success
+2020-05-09 10:57:11,285 INFO 27000 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 10:57:11 GMT+0800 (GMT+08:00)
+2020-05-09 10:57:11,292 INFO 27000 [egg:core] dump config after ready, 5ms
+2020-05-09 10:57:12,349 INFO 23592 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 10:57:12,377 INFO 23592 [egg-multipart] stream mode enable
+2020-05-09 10:57:12,377 INFO 23592 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 10:57:12,494 INFO 23592 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 10:57:12,496 INFO 23592 [egg-security] use methodnoallow middleware
+2020-05-09 10:57:12,497 INFO 23592 [egg-security] use noopen middleware
+2020-05-09 10:57:12,498 INFO 23592 [egg-security] use nosniff middleware
+2020-05-09 10:57:12,498 INFO 23592 [egg-security] use xssProtection middleware
+2020-05-09 10:57:12,499 INFO 23592 [egg-security] use xframe middleware
+2020-05-09 10:57:12,499 INFO 23592 [egg-security] use dta middleware
+2020-05-09 10:57:12,499 INFO 23592 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 10:57:12,510 INFO 23592 [egg:core] dump config after load, 5ms
+2020-05-09 10:57:12,531 INFO 23592 [egg-watcher:application] watcher start success
+2020-05-09 10:57:12,534 INFO 23592 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 10:57:12 GMT+0800 (GMT+08:00)
+2020-05-09 10:57:12,541 INFO 23592 [egg:core] dump config after ready, 6ms
+2020-05-09 10:57:47,835 INFO 20980 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 10:57:47,860 INFO 20980 [egg-multipart] stream mode enable
+2020-05-09 10:57:47,861 INFO 20980 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 10:57:47,968 INFO 20980 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 10:57:47,969 INFO 20980 [egg-security] use methodnoallow middleware
+2020-05-09 10:57:47,970 INFO 20980 [egg-security] use noopen middleware
+2020-05-09 10:57:47,970 INFO 20980 [egg-security] use nosniff middleware
+2020-05-09 10:57:47,971 INFO 20980 [egg-security] use xssProtection middleware
+2020-05-09 10:57:47,971 INFO 20980 [egg-security] use xframe middleware
+2020-05-09 10:57:47,972 INFO 20980 [egg-security] use dta middleware
+2020-05-09 10:57:47,972 INFO 20980 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 10:57:47,983 INFO 20980 [egg:core] dump config after load, 5ms
+2020-05-09 10:57:48,002 INFO 20980 [egg-watcher:application] watcher start success
+2020-05-09 10:57:48,008 INFO 20980 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 10:57:48 GMT+0800 (GMT+08:00)
+2020-05-09 10:57:48,014 INFO 20980 [egg:core] dump config after ready, 5ms
+2020-05-09 10:57:48,979 INFO 13788 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 10:57:49,008 INFO 13788 [egg-multipart] stream mode enable
+2020-05-09 10:57:49,009 INFO 13788 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 10:57:49,137 INFO 13788 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 10:57:49,139 INFO 13788 [egg-security] use methodnoallow middleware
+2020-05-09 10:57:49,140 INFO 13788 [egg-security] use noopen middleware
+2020-05-09 10:57:49,140 INFO 13788 [egg-security] use nosniff middleware
+2020-05-09 10:57:49,141 INFO 13788 [egg-security] use xssProtection middleware
+2020-05-09 10:57:49,141 INFO 13788 [egg-security] use xframe middleware
+2020-05-09 10:57:49,142 INFO 13788 [egg-security] use dta middleware
+2020-05-09 10:57:49,142 INFO 13788 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 10:57:49,157 INFO 13788 [egg:core] dump config after load, 6ms
+2020-05-09 10:57:49,178 INFO 13788 [egg-watcher:application] watcher start success
+2020-05-09 10:57:49,181 INFO 13788 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 10:57:49 GMT+0800 (GMT+08:00)
+2020-05-09 10:57:49,188 INFO 13788 [egg:core] dump config after ready, 5ms
+2020-05-09 11:12:49,752 INFO 21028 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:12:49,779 INFO 21028 [egg-multipart] stream mode enable
+2020-05-09 11:12:49,780 INFO 21028 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:12:49,884 INFO 21028 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:12:49,886 INFO 21028 [egg-security] use methodnoallow middleware
+2020-05-09 11:12:49,887 INFO 21028 [egg-security] use noopen middleware
+2020-05-09 11:12:49,887 INFO 21028 [egg-security] use nosniff middleware
+2020-05-09 11:12:49,888 INFO 21028 [egg-security] use xssProtection middleware
+2020-05-09 11:12:49,888 INFO 21028 [egg-security] use xframe middleware
+2020-05-09 11:12:49,889 INFO 21028 [egg-security] use dta middleware
+2020-05-09 11:12:49,889 INFO 21028 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:12:49,900 INFO 21028 [egg:core] dump config after load, 5ms
+2020-05-09 11:12:49,916 INFO 21028 [egg-watcher:application] watcher start success
+2020-05-09 11:12:49,921 INFO 21028 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:12:49 GMT+0800 (GMT+08:00)
+2020-05-09 11:12:49,930 INFO 21028 [egg:core] dump config after ready, 7ms
+2020-05-09 11:12:50,957 INFO 17632 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:12:50,985 INFO 17632 [egg-multipart] stream mode enable
+2020-05-09 11:12:50,985 INFO 17632 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:12:51,094 INFO 17632 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:12:51,096 INFO 17632 [egg-security] use methodnoallow middleware
+2020-05-09 11:12:51,096 INFO 17632 [egg-security] use noopen middleware
+2020-05-09 11:12:51,097 INFO 17632 [egg-security] use nosniff middleware
+2020-05-09 11:12:51,097 INFO 17632 [egg-security] use xssProtection middleware
+2020-05-09 11:12:51,097 INFO 17632 [egg-security] use xframe middleware
+2020-05-09 11:12:51,098 INFO 17632 [egg-security] use dta middleware
+2020-05-09 11:12:51,098 INFO 17632 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:12:51,108 INFO 17632 [egg:core] dump config after load, 4ms
+2020-05-09 11:12:51,125 INFO 17632 [egg-watcher:application] watcher start success
+2020-05-09 11:12:51,128 INFO 17632 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:12:51 GMT+0800 (GMT+08:00)
+2020-05-09 11:12:51,135 INFO 17632 [egg:core] dump config after ready, 6ms
+2020-05-09 11:13:51,390 INFO 16508 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:13:51,417 INFO 16508 [egg-multipart] stream mode enable
+2020-05-09 11:13:51,418 INFO 16508 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:13:51,538 INFO 16508 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:13:51,541 INFO 16508 [egg-security] use methodnoallow middleware
+2020-05-09 11:13:51,542 INFO 16508 [egg-security] use noopen middleware
+2020-05-09 11:13:51,543 INFO 16508 [egg-security] use nosniff middleware
+2020-05-09 11:13:51,543 INFO 16508 [egg-security] use xssProtection middleware
+2020-05-09 11:13:51,543 INFO 16508 [egg-security] use xframe middleware
+2020-05-09 11:13:51,544 INFO 16508 [egg-security] use dta middleware
+2020-05-09 11:13:51,544 INFO 16508 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:13:51,554 INFO 16508 [egg:core] dump config after load, 4ms
+2020-05-09 11:13:51,571 INFO 16508 [egg-watcher:application] watcher start success
+2020-05-09 11:13:51,577 INFO 16508 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:13:51 GMT+0800 (GMT+08:00)
+2020-05-09 11:13:51,584 INFO 16508 [egg:core] dump config after ready, 5ms
+2020-05-09 11:13:57,192 INFO 27444 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:13:57,217 INFO 27444 [egg-multipart] stream mode enable
+2020-05-09 11:13:57,218 INFO 27444 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:13:57,320 INFO 27444 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:13:57,322 INFO 27444 [egg-security] use methodnoallow middleware
+2020-05-09 11:13:57,323 INFO 27444 [egg-security] use noopen middleware
+2020-05-09 11:13:57,323 INFO 27444 [egg-security] use nosniff middleware
+2020-05-09 11:13:57,324 INFO 27444 [egg-security] use xssProtection middleware
+2020-05-09 11:13:57,324 INFO 27444 [egg-security] use xframe middleware
+2020-05-09 11:13:57,324 INFO 27444 [egg-security] use dta middleware
+2020-05-09 11:13:57,324 INFO 27444 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:13:57,335 INFO 27444 [egg:core] dump config after load, 5ms
+2020-05-09 11:13:57,350 INFO 27444 [egg-watcher:application] watcher start success
+2020-05-09 11:13:57,355 INFO 27444 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:13:57 GMT+0800 (GMT+08:00)
+2020-05-09 11:13:57,362 INFO 27444 [egg:core] dump config after ready, 6ms
+2020-05-09 11:14:35,977 INFO 16620 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:14:36,005 INFO 16620 [egg-multipart] stream mode enable
+2020-05-09 11:14:36,006 INFO 16620 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:14:36,124 INFO 16620 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:14:36,126 INFO 16620 [egg-security] use methodnoallow middleware
+2020-05-09 11:14:36,127 INFO 16620 [egg-security] use noopen middleware
+2020-05-09 11:14:36,127 INFO 16620 [egg-security] use nosniff middleware
+2020-05-09 11:14:36,128 INFO 16620 [egg-security] use xssProtection middleware
+2020-05-09 11:14:36,128 INFO 16620 [egg-security] use xframe middleware
+2020-05-09 11:14:36,129 INFO 16620 [egg-security] use dta middleware
+2020-05-09 11:14:36,129 INFO 16620 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:14:36,140 INFO 16620 [egg:core] dump config after load, 5ms
+2020-05-09 11:14:36,157 INFO 16620 [egg-watcher:application] watcher start success
+2020-05-09 11:14:36,163 INFO 16620 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:14:36 GMT+0800 (GMT+08:00)
+2020-05-09 11:14:36,170 INFO 16620 [egg:core] dump config after ready, 5ms
+2020-05-09 11:15:15,868 INFO 21860 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:15:15,897 INFO 21860 [egg-multipart] stream mode enable
+2020-05-09 11:15:15,898 INFO 21860 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:15:16,015 INFO 21860 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:15:16,017 INFO 21860 [egg-security] use methodnoallow middleware
+2020-05-09 11:15:16,018 INFO 21860 [egg-security] use noopen middleware
+2020-05-09 11:15:16,019 INFO 21860 [egg-security] use nosniff middleware
+2020-05-09 11:15:16,019 INFO 21860 [egg-security] use xssProtection middleware
+2020-05-09 11:15:16,020 INFO 21860 [egg-security] use xframe middleware
+2020-05-09 11:15:16,020 INFO 21860 [egg-security] use dta middleware
+2020-05-09 11:15:16,020 INFO 21860 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:15:16,035 INFO 21860 [egg:core] dump config after load, 9ms
+2020-05-09 11:15:16,056 INFO 21860 [egg-watcher:application] watcher start success
+2020-05-09 11:15:16,061 INFO 21860 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:15:16 GMT+0800 (GMT+08:00)
+2020-05-09 11:15:16,068 INFO 21860 [egg:core] dump config after ready, 6ms
+2020-05-09 11:17:08,435 INFO 14484 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:17:08,461 INFO 14484 [egg-multipart] stream mode enable
+2020-05-09 11:17:08,462 INFO 14484 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:17:08,568 INFO 14484 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:17:08,570 INFO 14484 [egg-security] use methodnoallow middleware
+2020-05-09 11:17:08,571 INFO 14484 [egg-security] use noopen middleware
+2020-05-09 11:17:08,571 INFO 14484 [egg-security] use nosniff middleware
+2020-05-09 11:17:08,572 INFO 14484 [egg-security] use xssProtection middleware
+2020-05-09 11:17:08,572 INFO 14484 [egg-security] use xframe middleware
+2020-05-09 11:17:08,573 INFO 14484 [egg-security] use dta middleware
+2020-05-09 11:17:08,573 INFO 14484 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:17:08,584 INFO 14484 [egg:core] dump config after load, 4ms
+2020-05-09 11:17:08,599 INFO 14484 [egg-watcher:application] watcher start success
+2020-05-09 11:17:08,603 INFO 14484 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:17:08 GMT+0800 (GMT+08:00)
+2020-05-09 11:17:08,611 INFO 14484 [egg:core] dump config after ready, 6ms
+2020-05-09 11:17:09,649 INFO 13404 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:17:09,674 INFO 13404 [egg-multipart] stream mode enable
+2020-05-09 11:17:09,675 INFO 13404 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:17:09,788 INFO 13404 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:17:09,790 INFO 13404 [egg-security] use methodnoallow middleware
+2020-05-09 11:17:09,791 INFO 13404 [egg-security] use noopen middleware
+2020-05-09 11:17:09,791 INFO 13404 [egg-security] use nosniff middleware
+2020-05-09 11:17:09,792 INFO 13404 [egg-security] use xssProtection middleware
+2020-05-09 11:17:09,792 INFO 13404 [egg-security] use xframe middleware
+2020-05-09 11:17:09,793 INFO 13404 [egg-security] use dta middleware
+2020-05-09 11:17:09,793 INFO 13404 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:17:09,804 INFO 13404 [egg:core] dump config after load, 4ms
+2020-05-09 11:17:09,820 INFO 13404 [egg-watcher:application] watcher start success
+2020-05-09 11:17:09,826 INFO 13404 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:17:09 GMT+0800 (GMT+08:00)
+2020-05-09 11:17:09,834 INFO 13404 [egg:core] dump config after ready, 6ms
+2020-05-09 11:18:20,340 INFO 15412 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:18:20,367 INFO 15412 [egg-multipart] stream mode enable
+2020-05-09 11:18:20,367 INFO 15412 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:18:20,483 INFO 15412 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:18:20,486 INFO 15412 [egg-security] use methodnoallow middleware
+2020-05-09 11:18:20,487 INFO 15412 [egg-security] use noopen middleware
+2020-05-09 11:18:20,488 INFO 15412 [egg-security] use nosniff middleware
+2020-05-09 11:18:20,489 INFO 15412 [egg-security] use xssProtection middleware
+2020-05-09 11:18:20,489 INFO 15412 [egg-security] use xframe middleware
+2020-05-09 11:18:20,489 INFO 15412 [egg-security] use dta middleware
+2020-05-09 11:18:20,489 INFO 15412 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:18:20,503 INFO 15412 [egg:core] dump config after load, 7ms
+2020-05-09 11:18:20,524 INFO 15412 [egg-watcher:application] watcher start success
+2020-05-09 11:18:20,529 INFO 15412 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:18:20 GMT+0800 (GMT+08:00)
+2020-05-09 11:18:20,538 INFO 15412 [egg:core] dump config after ready, 8ms
+2020-05-09 11:18:35,128 INFO 13028 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:18:35,162 INFO 13028 [egg-multipart] stream mode enable
+2020-05-09 11:18:35,162 INFO 13028 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:18:35,297 INFO 13028 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:18:35,301 INFO 13028 [egg-security] use methodnoallow middleware
+2020-05-09 11:18:35,301 INFO 13028 [egg-security] use noopen middleware
+2020-05-09 11:18:35,303 INFO 13028 [egg-security] use nosniff middleware
+2020-05-09 11:18:35,304 INFO 13028 [egg-security] use xssProtection middleware
+2020-05-09 11:18:35,305 INFO 13028 [egg-security] use xframe middleware
+2020-05-09 11:18:35,305 INFO 13028 [egg-security] use dta middleware
+2020-05-09 11:18:35,305 INFO 13028 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:18:35,318 INFO 13028 [egg:core] dump config after load, 6ms
+2020-05-09 11:18:35,340 INFO 13028 [egg-watcher:application] watcher start success
+2020-05-09 11:18:35,345 INFO 13028 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:18:35 GMT+0800 (GMT+08:00)
+2020-05-09 11:18:35,353 INFO 13028 [egg:core] dump config after ready, 7ms
+2020-05-09 11:18:40,734 INFO 6016 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:18:40,762 INFO 6016 [egg-multipart] stream mode enable
+2020-05-09 11:18:40,763 INFO 6016 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:18:40,881 INFO 6016 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:18:40,883 INFO 6016 [egg-security] use methodnoallow middleware
+2020-05-09 11:18:40,884 INFO 6016 [egg-security] use noopen middleware
+2020-05-09 11:18:40,885 INFO 6016 [egg-security] use nosniff middleware
+2020-05-09 11:18:40,886 INFO 6016 [egg-security] use xssProtection middleware
+2020-05-09 11:18:40,886 INFO 6016 [egg-security] use xframe middleware
+2020-05-09 11:18:40,887 INFO 6016 [egg-security] use dta middleware
+2020-05-09 11:18:40,887 INFO 6016 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:18:40,900 INFO 6016 [egg:core] dump config after load, 6ms
+2020-05-09 11:18:40,917 INFO 6016 [egg-watcher:application] watcher start success
+2020-05-09 11:18:40,922 INFO 6016 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:18:40 GMT+0800 (GMT+08:00)
+2020-05-09 11:18:40,930 INFO 6016 [egg:core] dump config after ready, 7ms
+2020-05-09 11:19:18,890 INFO 10536 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:19:18,923 INFO 10536 [egg-multipart] stream mode enable
+2020-05-09 11:19:18,924 INFO 10536 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:19:19,041 INFO 10536 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:19:19,044 INFO 10536 [egg-security] use methodnoallow middleware
+2020-05-09 11:19:19,045 INFO 10536 [egg-security] use noopen middleware
+2020-05-09 11:19:19,046 INFO 10536 [egg-security] use nosniff middleware
+2020-05-09 11:19:19,047 INFO 10536 [egg-security] use xssProtection middleware
+2020-05-09 11:19:19,048 INFO 10536 [egg-security] use xframe middleware
+2020-05-09 11:19:19,048 INFO 10536 [egg-security] use dta middleware
+2020-05-09 11:19:19,048 INFO 10536 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:19:19,062 INFO 10536 [egg:core] dump config after load, 7ms
+2020-05-09 11:19:19,078 INFO 10536 [egg-watcher:application] watcher start success
+2020-05-09 11:19:19,085 INFO 10536 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:19:19 GMT+0800 (GMT+08:00)
+2020-05-09 11:19:19,094 INFO 10536 [egg:core] dump config after ready, 6ms
+2020-05-09 11:19:20,214 INFO 17172 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:19:20,246 INFO 17172 [egg-multipart] stream mode enable
+2020-05-09 11:19:20,246 INFO 17172 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:19:20,393 INFO 17172 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:19:20,395 INFO 17172 [egg-security] use methodnoallow middleware
+2020-05-09 11:19:20,396 INFO 17172 [egg-security] use noopen middleware
+2020-05-09 11:19:20,396 INFO 17172 [egg-security] use nosniff middleware
+2020-05-09 11:19:20,397 INFO 17172 [egg-security] use xssProtection middleware
+2020-05-09 11:19:20,397 INFO 17172 [egg-security] use xframe middleware
+2020-05-09 11:19:20,398 INFO 17172 [egg-security] use dta middleware
+2020-05-09 11:19:20,398 INFO 17172 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:19:20,410 INFO 17172 [egg:core] dump config after load, 5ms
+2020-05-09 11:19:20,425 INFO 17172 [egg-watcher:application] watcher start success
+2020-05-09 11:19:20,431 INFO 17172 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:19:20 GMT+0800 (GMT+08:00)
+2020-05-09 11:19:20,446 INFO 17172 [egg:core] dump config after ready, 11ms
+2020-05-09 11:20:11,086 INFO 22032 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:20:11,111 INFO 22032 [egg-multipart] stream mode enable
+2020-05-09 11:20:11,112 INFO 22032 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:20:11,234 INFO 22032 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:20:11,236 INFO 22032 [egg-security] use methodnoallow middleware
+2020-05-09 11:20:11,236 INFO 22032 [egg-security] use noopen middleware
+2020-05-09 11:20:11,237 INFO 22032 [egg-security] use nosniff middleware
+2020-05-09 11:20:11,237 INFO 22032 [egg-security] use xssProtection middleware
+2020-05-09 11:20:11,238 INFO 22032 [egg-security] use xframe middleware
+2020-05-09 11:20:11,238 INFO 22032 [egg-security] use dta middleware
+2020-05-09 11:20:11,238 INFO 22032 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:20:11,250 INFO 22032 [egg:core] dump config after load, 5ms
+2020-05-09 11:20:11,267 INFO 22032 [egg-watcher:application] watcher start success
+2020-05-09 11:20:11,273 INFO 22032 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:20:11 GMT+0800 (GMT+08:00)
+2020-05-09 11:20:11,282 INFO 22032 [egg:core] dump config after ready, 7ms
+2020-05-09 11:26:05,317 INFO 26988 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:26:05,346 INFO 26988 [egg-multipart] stream mode enable
+2020-05-09 11:26:05,347 INFO 26988 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:26:05,459 INFO 26988 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:26:05,462 INFO 26988 [egg-security] use methodnoallow middleware
+2020-05-09 11:26:05,463 INFO 26988 [egg-security] use noopen middleware
+2020-05-09 11:26:05,463 INFO 26988 [egg-security] use nosniff middleware
+2020-05-09 11:26:05,464 INFO 26988 [egg-security] use xssProtection middleware
+2020-05-09 11:26:05,464 INFO 26988 [egg-security] use xframe middleware
+2020-05-09 11:26:05,465 INFO 26988 [egg-security] use dta middleware
+2020-05-09 11:26:05,465 INFO 26988 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:26:05,475 INFO 26988 [egg:core] dump config after load, 4ms
+2020-05-09 11:26:05,497 INFO 26988 [egg-watcher:application] watcher start success
+2020-05-09 11:26:05,499 INFO 26988 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:26:05 GMT+0800 (GMT+08:00)
+2020-05-09 11:26:05,507 INFO 26988 [egg:core] dump config after ready, 6ms
+2020-05-09 11:33:43,745 INFO 19880 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:33:43,770 INFO 19880 [egg-multipart] stream mode enable
+2020-05-09 11:33:43,771 INFO 19880 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:33:43,879 INFO 19880 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:33:43,881 INFO 19880 [egg-security] use methodnoallow middleware
+2020-05-09 11:33:43,881 INFO 19880 [egg-security] use noopen middleware
+2020-05-09 11:33:43,882 INFO 19880 [egg-security] use nosniff middleware
+2020-05-09 11:33:43,882 INFO 19880 [egg-security] use xssProtection middleware
+2020-05-09 11:33:43,883 INFO 19880 [egg-security] use xframe middleware
+2020-05-09 11:33:43,883 INFO 19880 [egg-security] use dta middleware
+2020-05-09 11:33:43,883 INFO 19880 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:33:43,894 INFO 19880 [egg:core] dump config after load, 4ms
+2020-05-09 11:33:43,911 INFO 19880 [egg-watcher:application] watcher start success
+2020-05-09 11:33:43,915 INFO 19880 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:33:43 GMT+0800 (GMT+08:00)
+2020-05-09 11:33:43,924 INFO 19880 [egg:core] dump config after ready, 7ms
+2020-05-09 11:33:45,000 INFO 19048 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:33:45,026 INFO 19048 [egg-multipart] stream mode enable
+2020-05-09 11:33:45,026 INFO 19048 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:33:45,137 INFO 19048 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:33:45,139 INFO 19048 [egg-security] use methodnoallow middleware
+2020-05-09 11:33:45,139 INFO 19048 [egg-security] use noopen middleware
+2020-05-09 11:33:45,140 INFO 19048 [egg-security] use nosniff middleware
+2020-05-09 11:33:45,140 INFO 19048 [egg-security] use xssProtection middleware
+2020-05-09 11:33:45,141 INFO 19048 [egg-security] use xframe middleware
+2020-05-09 11:33:45,141 INFO 19048 [egg-security] use dta middleware
+2020-05-09 11:33:45,141 INFO 19048 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:33:45,151 INFO 19048 [egg:core] dump config after load, 4ms
+2020-05-09 11:33:45,168 INFO 19048 [egg-watcher:application] watcher start success
+2020-05-09 11:33:45,173 INFO 19048 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:33:45 GMT+0800 (GMT+08:00)
+2020-05-09 11:33:45,180 INFO 19048 [egg:core] dump config after ready, 6ms
+2020-05-09 11:33:55,351 INFO 16652 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:33:55,378 INFO 16652 [egg-multipart] stream mode enable
+2020-05-09 11:33:55,378 INFO 16652 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:33:55,504 INFO 16652 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:33:55,506 INFO 16652 [egg-security] use methodnoallow middleware
+2020-05-09 11:33:55,506 INFO 16652 [egg-security] use noopen middleware
+2020-05-09 11:33:55,507 INFO 16652 [egg-security] use nosniff middleware
+2020-05-09 11:33:55,507 INFO 16652 [egg-security] use xssProtection middleware
+2020-05-09 11:33:55,508 INFO 16652 [egg-security] use xframe middleware
+2020-05-09 11:33:55,508 INFO 16652 [egg-security] use dta middleware
+2020-05-09 11:33:55,508 INFO 16652 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:33:55,522 INFO 16652 [egg:core] dump config after load, 6ms
+2020-05-09 11:33:55,540 INFO 16652 [egg-watcher:application] watcher start success
+2020-05-09 11:33:55,546 INFO 16652 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:33:55 GMT+0800 (GMT+08:00)
+2020-05-09 11:33:55,553 INFO 16652 [egg:core] dump config after ready, 5ms
+2020-05-09 11:33:56,556 INFO 15072 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:33:56,583 INFO 15072 [egg-multipart] stream mode enable
+2020-05-09 11:33:56,583 INFO 15072 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:33:56,686 INFO 15072 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:33:56,688 INFO 15072 [egg-security] use methodnoallow middleware
+2020-05-09 11:33:56,689 INFO 15072 [egg-security] use noopen middleware
+2020-05-09 11:33:56,689 INFO 15072 [egg-security] use nosniff middleware
+2020-05-09 11:33:56,690 INFO 15072 [egg-security] use xssProtection middleware
+2020-05-09 11:33:56,690 INFO 15072 [egg-security] use xframe middleware
+2020-05-09 11:33:56,690 INFO 15072 [egg-security] use dta middleware
+2020-05-09 11:33:56,691 INFO 15072 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:33:56,702 INFO 15072 [egg:core] dump config after load, 5ms
+2020-05-09 11:33:56,721 INFO 15072 [egg-watcher:application] watcher start success
+2020-05-09 11:33:56,724 INFO 15072 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:33:56 GMT+0800 (GMT+08:00)
+2020-05-09 11:33:56,732 INFO 15072 [egg:core] dump config after ready, 7ms
+2020-05-09 11:33:59,542 INFO 13724 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:33:59,574 INFO 13724 [egg-multipart] stream mode enable
+2020-05-09 11:33:59,574 INFO 13724 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:33:59,687 INFO 13724 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:33:59,689 INFO 13724 [egg-security] use methodnoallow middleware
+2020-05-09 11:33:59,689 INFO 13724 [egg-security] use noopen middleware
+2020-05-09 11:33:59,690 INFO 13724 [egg-security] use nosniff middleware
+2020-05-09 11:33:59,691 INFO 13724 [egg-security] use xssProtection middleware
+2020-05-09 11:33:59,691 INFO 13724 [egg-security] use xframe middleware
+2020-05-09 11:33:59,692 INFO 13724 [egg-security] use dta middleware
+2020-05-09 11:33:59,692 INFO 13724 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:33:59,705 INFO 13724 [egg:core] dump config after load, 4ms
+2020-05-09 11:33:59,723 INFO 13724 [egg-watcher:application] watcher start success
+2020-05-09 11:33:59,727 INFO 13724 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:33:59 GMT+0800 (GMT+08:00)
+2020-05-09 11:33:59,735 INFO 13724 [egg:core] dump config after ready, 6ms
+2020-05-09 11:34:13,818 INFO 8724 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:34:13,847 INFO 8724 [egg-multipart] stream mode enable
+2020-05-09 11:34:13,848 INFO 8724 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:34:13,983 INFO 8724 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:34:13,986 INFO 8724 [egg-security] use methodnoallow middleware
+2020-05-09 11:34:13,987 INFO 8724 [egg-security] use noopen middleware
+2020-05-09 11:34:13,987 INFO 8724 [egg-security] use nosniff middleware
+2020-05-09 11:34:13,988 INFO 8724 [egg-security] use xssProtection middleware
+2020-05-09 11:34:13,988 INFO 8724 [egg-security] use xframe middleware
+2020-05-09 11:34:13,989 INFO 8724 [egg-security] use dta middleware
+2020-05-09 11:34:13,989 INFO 8724 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:34:14,005 INFO 8724 [egg:core] dump config after load, 6ms
+2020-05-09 11:34:14,034 INFO 8724 [egg-watcher:application] watcher start success
+2020-05-09 11:34:14,039 INFO 8724 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:34:14 GMT+0800 (GMT+08:00)
+2020-05-09 11:34:14,056 INFO 8724 [egg:core] dump config after ready, 12ms
+2020-05-09 11:34:21,099 INFO 15768 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:34:21,126 INFO 15768 [egg-multipart] stream mode enable
+2020-05-09 11:34:21,127 INFO 15768 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:34:21,242 INFO 15768 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:34:21,244 INFO 15768 [egg-security] use methodnoallow middleware
+2020-05-09 11:34:21,245 INFO 15768 [egg-security] use noopen middleware
+2020-05-09 11:34:21,246 INFO 15768 [egg-security] use nosniff middleware
+2020-05-09 11:34:21,246 INFO 15768 [egg-security] use xssProtection middleware
+2020-05-09 11:34:21,246 INFO 15768 [egg-security] use xframe middleware
+2020-05-09 11:34:21,247 INFO 15768 [egg-security] use dta middleware
+2020-05-09 11:34:21,247 INFO 15768 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:34:21,263 INFO 15768 [egg:core] dump config after load, 9ms
+2020-05-09 11:34:21,281 INFO 15768 [egg-watcher:application] watcher start success
+2020-05-09 11:34:21,287 INFO 15768 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:34:21 GMT+0800 (GMT+08:00)
+2020-05-09 11:34:21,294 INFO 15768 [egg:core] dump config after ready, 6ms
+2020-05-09 11:38:09,920 INFO 23508 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:38:09,944 INFO 23508 [egg-multipart] stream mode enable
+2020-05-09 11:38:09,944 INFO 23508 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:38:10,058 INFO 23508 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:38:10,061 INFO 23508 [egg-security] use methodnoallow middleware
+2020-05-09 11:38:10,061 INFO 23508 [egg-security] use noopen middleware
+2020-05-09 11:38:10,062 INFO 23508 [egg-security] use nosniff middleware
+2020-05-09 11:38:10,062 INFO 23508 [egg-security] use xssProtection middleware
+2020-05-09 11:38:10,063 INFO 23508 [egg-security] use xframe middleware
+2020-05-09 11:38:10,063 INFO 23508 [egg-security] use dta middleware
+2020-05-09 11:38:10,063 INFO 23508 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:38:10,074 INFO 23508 [egg:core] dump config after load, 5ms
+2020-05-09 11:38:10,096 INFO 23508 [egg-watcher:application] watcher start success
+2020-05-09 11:38:10,098 INFO 23508 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:38:10 GMT+0800 (GMT+08:00)
+2020-05-09 11:38:10,105 INFO 23508 [egg:core] dump config after ready, 6ms
+2020-05-09 11:38:36,458 ERROR 23508 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:66:26)
+    at HomeController.getListById (E:\reactBlog\service\app\controller\default\home.js:60:10)
+
+pid: 23508
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:38:58,621 ERROR 23508 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:66:26)
+    at HomeController.getListById (E:\reactBlog\service\app\controller\default\home.js:60:10)
+
+pid: 23508
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:39:42,154 ERROR 23508 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:66:26)
+    at HomeController.getListById (E:\reactBlog\service\app\controller\default\home.js:60:10)
+
+pid: 23508
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:40:31,983 INFO 9472 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:40:32,016 INFO 9472 [egg-multipart] stream mode enable
+2020-05-09 11:40:32,016 INFO 9472 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:40:32,138 INFO 9472 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:40:32,141 INFO 9472 [egg-security] use methodnoallow middleware
+2020-05-09 11:40:32,141 INFO 9472 [egg-security] use noopen middleware
+2020-05-09 11:40:32,142 INFO 9472 [egg-security] use nosniff middleware
+2020-05-09 11:40:32,142 INFO 9472 [egg-security] use xssProtection middleware
+2020-05-09 11:40:32,143 INFO 9472 [egg-security] use xframe middleware
+2020-05-09 11:40:32,143 INFO 9472 [egg-security] use dta middleware
+2020-05-09 11:40:32,143 INFO 9472 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:40:32,156 INFO 9472 [egg:core] dump config after load, 5ms
+2020-05-09 11:40:32,177 INFO 9472 [egg-watcher:application] watcher start success
+2020-05-09 11:40:32,185 INFO 9472 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:40:32 GMT+0800 (GMT+08:00)
+2020-05-09 11:40:32,194 INFO 9472 [egg:core] dump config after ready, 8ms
+2020-05-09 11:41:00,578 ERROR 9472 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:66:26)
+    at HomeController.getListById (E:\reactBlog\service\app\controller\default\home.js:61:10)
+
+pid: 9472
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:42:48,833 INFO 27364 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:42:48,860 INFO 27364 [egg-multipart] stream mode enable
+2020-05-09 11:42:48,860 INFO 27364 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:42:48,979 INFO 27364 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:42:48,982 INFO 27364 [egg-security] use methodnoallow middleware
+2020-05-09 11:42:48,982 INFO 27364 [egg-security] use noopen middleware
+2020-05-09 11:42:48,983 INFO 27364 [egg-security] use nosniff middleware
+2020-05-09 11:42:48,983 INFO 27364 [egg-security] use xssProtection middleware
+2020-05-09 11:42:48,984 INFO 27364 [egg-security] use xframe middleware
+2020-05-09 11:42:48,984 INFO 27364 [egg-security] use dta middleware
+2020-05-09 11:42:48,984 INFO 27364 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:42:48,997 INFO 27364 [egg:core] dump config after load, 7ms
+2020-05-09 11:42:49,015 INFO 27364 [egg-watcher:application] watcher start success
+2020-05-09 11:42:49,021 INFO 27364 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:42:49 GMT+0800 (GMT+08:00)
+2020-05-09 11:42:49,032 INFO 27364 [egg:core] dump config after ready, 9ms
+2020-05-09 11:42:55,960 ERROR 27364 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:67:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:38:10)
+
+pid: 27364
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:43:08,250 ERROR 27364 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:67:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:38:10)
+
+pid: 27364
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:43:25,751 ERROR 27364 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:67:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:38:10)
+
+pid: 27364
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:43:28,518 ERROR 27364 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:67:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:38:10)
+
+pid: 27364
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:43:29,314 ERROR 27364 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:67:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:38:10)
+
+pid: 27364
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:43:46,638 INFO 12172 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:43:46,664 INFO 12172 [egg-multipart] stream mode enable
+2020-05-09 11:43:46,664 INFO 12172 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:43:46,783 INFO 12172 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:43:46,785 INFO 12172 [egg-security] use methodnoallow middleware
+2020-05-09 11:43:46,786 INFO 12172 [egg-security] use noopen middleware
+2020-05-09 11:43:46,787 INFO 12172 [egg-security] use nosniff middleware
+2020-05-09 11:43:46,787 INFO 12172 [egg-security] use xssProtection middleware
+2020-05-09 11:43:46,787 INFO 12172 [egg-security] use xframe middleware
+2020-05-09 11:43:46,788 INFO 12172 [egg-security] use dta middleware
+2020-05-09 11:43:46,788 INFO 12172 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:43:46,800 INFO 12172 [egg:core] dump config after load, 5ms
+2020-05-09 11:43:46,825 INFO 12172 [egg-watcher:application] watcher start success
+2020-05-09 11:43:46,830 INFO 12172 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:43:46 GMT+0800 (GMT+08:00)
+2020-05-09 11:43:46,840 INFO 12172 [egg:core] dump config after ready, 8ms
+2020-05-09 11:43:49,999 ERROR 12172 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:67:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:38:10)
+
+pid: 12172
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:45:28,672 INFO 26464 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:45:28,700 INFO 26464 [egg-multipart] stream mode enable
+2020-05-09 11:45:28,700 INFO 26464 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:45:28,820 INFO 26464 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:45:28,822 INFO 26464 [egg-security] use methodnoallow middleware
+2020-05-09 11:45:28,823 INFO 26464 [egg-security] use noopen middleware
+2020-05-09 11:45:28,823 INFO 26464 [egg-security] use nosniff middleware
+2020-05-09 11:45:28,824 INFO 26464 [egg-security] use xssProtection middleware
+2020-05-09 11:45:28,824 INFO 26464 [egg-security] use xframe middleware
+2020-05-09 11:45:28,825 INFO 26464 [egg-security] use dta middleware
+2020-05-09 11:45:28,825 INFO 26464 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:45:28,837 INFO 26464 [egg:core] dump config after load, 5ms
+2020-05-09 11:45:28,854 INFO 26464 [egg-watcher:application] watcher start success
+2020-05-09 11:45:28,859 INFO 26464 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:45:28 GMT+0800 (GMT+08:00)
+2020-05-09 11:45:28,869 INFO 26464 [egg:core] dump config after ready, 8ms
+2020-05-09 11:45:31,834 ERROR 26464 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:67:41)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:38:10)
+
+pid: 26464
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:45:44,280 INFO 27108 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:45:44,317 INFO 27108 [egg-multipart] stream mode enable
+2020-05-09 11:45:44,317 INFO 27108 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:45:44,454 INFO 27108 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:45:44,456 INFO 27108 [egg-security] use methodnoallow middleware
+2020-05-09 11:45:44,457 INFO 27108 [egg-security] use noopen middleware
+2020-05-09 11:45:44,458 INFO 27108 [egg-security] use nosniff middleware
+2020-05-09 11:45:44,458 INFO 27108 [egg-security] use xssProtection middleware
+2020-05-09 11:45:44,459 INFO 27108 [egg-security] use xframe middleware
+2020-05-09 11:45:44,459 INFO 27108 [egg-security] use dta middleware
+2020-05-09 11:45:44,459 INFO 27108 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:45:44,477 INFO 27108 [egg:core] dump config after load, 7ms
+2020-05-09 11:45:44,505 INFO 27108 [egg-watcher:application] watcher start success
+2020-05-09 11:45:44,507 INFO 27108 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:45:44 GMT+0800 (GMT+08:00)
+2020-05-09 11:45:44,518 INFO 27108 [egg:core] dump config after ready, 9ms
+2020-05-09 11:45:46,756 ERROR 27108 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:67:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:39:10)
+
+pid: 27108
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:46:21,151 INFO 26636 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:46:21,178 INFO 26636 [egg-multipart] stream mode enable
+2020-05-09 11:46:21,178 INFO 26636 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:46:21,295 INFO 26636 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:46:21,297 INFO 26636 [egg-security] use methodnoallow middleware
+2020-05-09 11:46:21,298 INFO 26636 [egg-security] use noopen middleware
+2020-05-09 11:46:21,299 INFO 26636 [egg-security] use nosniff middleware
+2020-05-09 11:46:21,299 INFO 26636 [egg-security] use xssProtection middleware
+2020-05-09 11:46:21,299 INFO 26636 [egg-security] use xframe middleware
+2020-05-09 11:46:21,300 INFO 26636 [egg-security] use dta middleware
+2020-05-09 11:46:21,300 INFO 26636 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:46:21,314 INFO 26636 [egg:core] dump config after load, 8ms
+2020-05-09 11:46:21,335 INFO 26636 [egg-watcher:application] watcher start success
+2020-05-09 11:46:21,340 INFO 26636 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:46:21 GMT+0800 (GMT+08:00)
+2020-05-09 11:46:21,348 INFO 26636 [egg:core] dump config after ready, 6ms
+2020-05-09 11:46:24,265 ERROR 26636 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:14:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:45:10)
+
+pid: 26636
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:47:02,869 INFO 23940 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:47:02,905 INFO 23940 [egg-multipart] stream mode enable
+2020-05-09 11:47:02,905 INFO 23940 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:47:03,057 INFO 23940 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:47:03,059 INFO 23940 [egg-security] use methodnoallow middleware
+2020-05-09 11:47:03,060 INFO 23940 [egg-security] use noopen middleware
+2020-05-09 11:47:03,061 INFO 23940 [egg-security] use nosniff middleware
+2020-05-09 11:47:03,062 INFO 23940 [egg-security] use xssProtection middleware
+2020-05-09 11:47:03,062 INFO 23940 [egg-security] use xframe middleware
+2020-05-09 11:47:03,063 INFO 23940 [egg-security] use dta middleware
+2020-05-09 11:47:03,063 INFO 23940 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:47:03,079 INFO 23940 [egg:core] dump config after load, 5ms
+2020-05-09 11:47:03,099 INFO 23940 [egg-watcher:application] watcher start success
+2020-05-09 11:47:03,105 INFO 23940 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:47:03 GMT+0800 (GMT+08:00)
+2020-05-09 11:47:03,114 INFO 23940 [egg:core] dump config after ready, 7ms
+2020-05-09 11:47:05,042 ERROR 23940 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:15:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:46:10)
+
+pid: 23940
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:47:26,355 INFO 15576 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:47:26,383 INFO 15576 [egg-multipart] stream mode enable
+2020-05-09 11:47:26,384 INFO 15576 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:47:26,497 INFO 15576 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:47:26,499 INFO 15576 [egg-security] use methodnoallow middleware
+2020-05-09 11:47:26,499 INFO 15576 [egg-security] use noopen middleware
+2020-05-09 11:47:26,500 INFO 15576 [egg-security] use nosniff middleware
+2020-05-09 11:47:26,500 INFO 15576 [egg-security] use xssProtection middleware
+2020-05-09 11:47:26,501 INFO 15576 [egg-security] use xframe middleware
+2020-05-09 11:47:26,501 INFO 15576 [egg-security] use dta middleware
+2020-05-09 11:47:26,501 INFO 15576 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:47:26,512 INFO 15576 [egg:core] dump config after load, 5ms
+2020-05-09 11:47:26,529 INFO 15576 [egg-watcher:application] watcher start success
+2020-05-09 11:47:26,534 INFO 15576 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:47:26 GMT+0800 (GMT+08:00)
+2020-05-09 11:47:26,541 INFO 15576 [egg:core] dump config after ready, 5ms
+2020-05-09 11:48:01,554 INFO 3928 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:48:01,581 INFO 3928 [egg-multipart] stream mode enable
+2020-05-09 11:48:01,581 INFO 3928 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:48:01,708 INFO 3928 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:48:01,712 INFO 3928 [egg-security] use methodnoallow middleware
+2020-05-09 11:48:01,713 INFO 3928 [egg-security] use noopen middleware
+2020-05-09 11:48:01,713 INFO 3928 [egg-security] use nosniff middleware
+2020-05-09 11:48:01,714 INFO 3928 [egg-security] use xssProtection middleware
+2020-05-09 11:48:01,715 INFO 3928 [egg-security] use xframe middleware
+2020-05-09 11:48:01,715 INFO 3928 [egg-security] use dta middleware
+2020-05-09 11:48:01,715 INFO 3928 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:48:01,727 INFO 3928 [egg:core] dump config after load, 6ms
+2020-05-09 11:48:01,744 INFO 3928 [egg-watcher:application] watcher start success
+2020-05-09 11:48:01,749 INFO 3928 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:48:01 GMT+0800 (GMT+08:00)
+2020-05-09 11:48:01,757 INFO 3928 [egg:core] dump config after ready, 7ms
+2020-05-09 11:48:36,450 INFO 20608 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 11:48:36,479 INFO 20608 [egg-multipart] stream mode enable
+2020-05-09 11:48:36,480 INFO 20608 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 11:48:36,606 INFO 20608 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 11:48:36,609 INFO 20608 [egg-security] use methodnoallow middleware
+2020-05-09 11:48:36,609 INFO 20608 [egg-security] use noopen middleware
+2020-05-09 11:48:36,610 INFO 20608 [egg-security] use nosniff middleware
+2020-05-09 11:48:36,610 INFO 20608 [egg-security] use xssProtection middleware
+2020-05-09 11:48:36,611 INFO 20608 [egg-security] use xframe middleware
+2020-05-09 11:48:36,611 INFO 20608 [egg-security] use dta middleware
+2020-05-09 11:48:36,611 INFO 20608 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 11:48:36,624 INFO 20608 [egg:core] dump config after load, 7ms
+2020-05-09 11:48:36,646 INFO 20608 [egg-watcher:application] watcher start success
+2020-05-09 11:48:36,652 INFO 20608 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 11:48:36 GMT+0800 (GMT+08:00)
+2020-05-09 11:48:36,660 INFO 20608 [egg:core] dump config after ready, 7ms
+2020-05-09 11:48:39,028 ERROR 20608 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:14:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:44:10)
+
+pid: 20608
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 13:49:09,741 WARN 20608 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-09 13:50:14,402 INFO 10236 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 13:50:14,426 INFO 10236 [egg-multipart] stream mode enable
+2020-05-09 13:50:14,427 INFO 10236 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 13:50:14,533 INFO 10236 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 13:50:14,535 INFO 10236 [egg-security] use methodnoallow middleware
+2020-05-09 13:50:14,535 INFO 10236 [egg-security] use noopen middleware
+2020-05-09 13:50:14,536 INFO 10236 [egg-security] use nosniff middleware
+2020-05-09 13:50:14,537 INFO 10236 [egg-security] use xssProtection middleware
+2020-05-09 13:50:14,537 INFO 10236 [egg-security] use xframe middleware
+2020-05-09 13:50:14,538 INFO 10236 [egg-security] use dta middleware
+2020-05-09 13:50:14,538 INFO 10236 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 13:50:14,549 INFO 10236 [egg:core] dump config after load, 5ms
+2020-05-09 13:50:14,565 INFO 10236 [egg-watcher:application] watcher start success
+2020-05-09 13:50:14,571 INFO 10236 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 13:50:14 GMT+0800 (GMT+08:00)
+2020-05-09 13:50:14,580 INFO 10236 [egg:core] dump config after ready, 7ms
+2020-05-09 13:50:15,640 INFO 28140 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 13:50:15,667 INFO 28140 [egg-multipart] stream mode enable
+2020-05-09 13:50:15,668 INFO 28140 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 13:50:15,796 INFO 28140 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 13:50:15,798 INFO 28140 [egg-security] use methodnoallow middleware
+2020-05-09 13:50:15,799 INFO 28140 [egg-security] use noopen middleware
+2020-05-09 13:50:15,799 INFO 28140 [egg-security] use nosniff middleware
+2020-05-09 13:50:15,800 INFO 28140 [egg-security] use xssProtection middleware
+2020-05-09 13:50:15,800 INFO 28140 [egg-security] use xframe middleware
+2020-05-09 13:50:15,800 INFO 28140 [egg-security] use dta middleware
+2020-05-09 13:50:15,801 INFO 28140 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 13:50:15,813 INFO 28140 [egg:core] dump config after load, 5ms
+2020-05-09 13:50:15,835 INFO 28140 [egg-watcher:application] watcher start success
+2020-05-09 13:50:15,841 INFO 28140 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 13:50:15 GMT+0800 (GMT+08:00)
+2020-05-09 13:50:15,849 INFO 28140 [egg:core] dump config after ready, 6ms
+2020-05-09 13:52:41,567 INFO 17500 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 13:52:41,593 INFO 17500 [egg-multipart] stream mode enable
+2020-05-09 13:52:41,593 INFO 17500 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 13:52:41,703 INFO 17500 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 13:52:41,705 INFO 17500 [egg-security] use methodnoallow middleware
+2020-05-09 13:52:41,705 INFO 17500 [egg-security] use noopen middleware
+2020-05-09 13:52:41,706 INFO 17500 [egg-security] use nosniff middleware
+2020-05-09 13:52:41,706 INFO 17500 [egg-security] use xssProtection middleware
+2020-05-09 13:52:41,706 INFO 17500 [egg-security] use xframe middleware
+2020-05-09 13:52:41,707 INFO 17500 [egg-security] use dta middleware
+2020-05-09 13:52:41,707 INFO 17500 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 13:52:41,718 INFO 17500 [egg:core] dump config after load, 4ms
+2020-05-09 13:52:41,738 INFO 17500 [egg-watcher:application] watcher start success
+2020-05-09 13:52:41,740 INFO 17500 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 13:52:41 GMT+0800 (GMT+08:00)
+2020-05-09 13:52:41,749 INFO 17500 [egg:core] dump config after ready, 7ms
+2020-05-09 13:53:10,238 INFO 13408 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 13:53:10,264 INFO 13408 [egg-multipart] stream mode enable
+2020-05-09 13:53:10,264 INFO 13408 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 13:53:10,385 INFO 13408 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 13:53:10,387 INFO 13408 [egg-security] use methodnoallow middleware
+2020-05-09 13:53:10,388 INFO 13408 [egg-security] use noopen middleware
+2020-05-09 13:53:10,388 INFO 13408 [egg-security] use nosniff middleware
+2020-05-09 13:53:10,389 INFO 13408 [egg-security] use xssProtection middleware
+2020-05-09 13:53:10,390 INFO 13408 [egg-security] use xframe middleware
+2020-05-09 13:53:10,390 INFO 13408 [egg-security] use dta middleware
+2020-05-09 13:53:10,390 INFO 13408 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 13:53:10,404 INFO 13408 [egg:core] dump config after load, 7ms
+2020-05-09 13:53:10,422 INFO 13408 [egg-watcher:application] watcher start success
+2020-05-09 13:53:10,427 INFO 13408 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 13:53:10 GMT+0800 (GMT+08:00)
+2020-05-09 13:53:10,435 INFO 13408 [egg:core] dump config after ready, 6ms
+2020-05-09 13:53:14,699 ERROR 13408 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:14:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:45:10)
+
+pid: 13408
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 13:53:32,908 ERROR 13408 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:14:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:45:10)
+
+pid: 13408
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 13:53:34,928 ERROR 13408 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:14:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:45:10)
+
+pid: 13408
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 13:53:42,763 ERROR 13408 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:14:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:45:10)
+
+pid: 13408
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 13:54:00,345 INFO 14384 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 13:54:00,370 INFO 14384 [egg-multipart] stream mode enable
+2020-05-09 13:54:00,370 INFO 14384 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 13:54:00,473 INFO 14384 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 13:54:00,475 INFO 14384 [egg-security] use methodnoallow middleware
+2020-05-09 13:54:00,475 INFO 14384 [egg-security] use noopen middleware
+2020-05-09 13:54:00,476 INFO 14384 [egg-security] use nosniff middleware
+2020-05-09 13:54:00,477 INFO 14384 [egg-security] use xssProtection middleware
+2020-05-09 13:54:00,477 INFO 14384 [egg-security] use xframe middleware
+2020-05-09 13:54:00,477 INFO 14384 [egg-security] use dta middleware
+2020-05-09 13:54:00,477 INFO 14384 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 13:54:00,488 INFO 14384 [egg:core] dump config after load, 5ms
+2020-05-09 13:54:00,502 INFO 14384 [egg-watcher:application] watcher start success
+2020-05-09 13:54:00,507 INFO 14384 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 13:54:00 GMT+0800 (GMT+08:00)
+2020-05-09 13:54:00,514 INFO 14384 [egg:core] dump config after ready, 6ms
+2020-05-09 13:54:20,282 INFO 21588 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 13:54:20,316 INFO 21588 [egg-multipart] stream mode enable
+2020-05-09 13:54:20,316 INFO 21588 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 13:54:20,514 INFO 21588 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 13:54:20,516 INFO 21588 [egg-security] use methodnoallow middleware
+2020-05-09 13:54:20,517 INFO 21588 [egg-security] use noopen middleware
+2020-05-09 13:54:20,518 INFO 21588 [egg-security] use nosniff middleware
+2020-05-09 13:54:20,518 INFO 21588 [egg-security] use xssProtection middleware
+2020-05-09 13:54:20,519 INFO 21588 [egg-security] use xframe middleware
+2020-05-09 13:54:20,520 INFO 21588 [egg-security] use dta middleware
+2020-05-09 13:54:20,520 INFO 21588 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 13:54:20,534 INFO 21588 [egg:core] dump config after load, 6ms
+2020-05-09 13:54:20,558 INFO 21588 [egg-watcher:application] watcher start success
+2020-05-09 13:54:20,566 INFO 21588 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 13:54:20 GMT+0800 (GMT+08:00)
+2020-05-09 13:54:20,576 INFO 21588 [egg:core] dump config after ready, 8ms
+2020-05-09 13:58:59,577 INFO 26812 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 13:58:59,620 INFO 26812 [egg-multipart] stream mode enable
+2020-05-09 13:58:59,621 INFO 26812 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 13:58:59,767 INFO 26812 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 13:58:59,770 INFO 26812 [egg-security] use methodnoallow middleware
+2020-05-09 13:58:59,770 INFO 26812 [egg-security] use noopen middleware
+2020-05-09 13:58:59,771 INFO 26812 [egg-security] use nosniff middleware
+2020-05-09 13:58:59,771 INFO 26812 [egg-security] use xssProtection middleware
+2020-05-09 13:58:59,771 INFO 26812 [egg-security] use xframe middleware
+2020-05-09 13:58:59,772 INFO 26812 [egg-security] use dta middleware
+2020-05-09 13:58:59,772 INFO 26812 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 13:58:59,784 INFO 26812 [egg:core] dump config after load, 6ms
+2020-05-09 13:58:59,808 INFO 26812 [egg-watcher:application] watcher start success
+2020-05-09 13:58:59,810 INFO 26812 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 13:58:59 GMT+0800 (GMT+08:00)
+2020-05-09 13:58:59,819 INFO 26812 [egg:core] dump config after ready, 7ms
+2020-05-09 14:01:35,032 INFO 3064 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 14:01:35,073 INFO 3064 [egg-multipart] stream mode enable
+2020-05-09 14:01:35,073 INFO 3064 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 14:01:35,185 INFO 3064 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 14:01:35,187 INFO 3064 [egg-security] use methodnoallow middleware
+2020-05-09 14:01:35,187 INFO 3064 [egg-security] use noopen middleware
+2020-05-09 14:01:35,188 INFO 3064 [egg-security] use nosniff middleware
+2020-05-09 14:01:35,188 INFO 3064 [egg-security] use xssProtection middleware
+2020-05-09 14:01:35,189 INFO 3064 [egg-security] use xframe middleware
+2020-05-09 14:01:35,189 INFO 3064 [egg-security] use dta middleware
+2020-05-09 14:01:35,189 INFO 3064 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 14:01:35,202 INFO 3064 [egg:core] dump config after load, 5ms
+2020-05-09 14:01:35,223 INFO 3064 [egg-watcher:application] watcher start success
+2020-05-09 14:01:35,227 INFO 3064 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 14:01:35 GMT+0800 (GMT+08:00)
+2020-05-09 14:01:35,236 INFO 3064 [egg:core] dump config after ready, 6ms
+2020-05-09 14:03:19,420 INFO 22732 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 14:03:19,448 INFO 22732 [egg-multipart] stream mode enable
+2020-05-09 14:03:19,448 INFO 22732 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 14:03:19,566 INFO 22732 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 14:03:19,568 INFO 22732 [egg-security] use methodnoallow middleware
+2020-05-09 14:03:19,569 INFO 22732 [egg-security] use noopen middleware
+2020-05-09 14:03:19,569 INFO 22732 [egg-security] use nosniff middleware
+2020-05-09 14:03:19,570 INFO 22732 [egg-security] use xssProtection middleware
+2020-05-09 14:03:19,570 INFO 22732 [egg-security] use xframe middleware
+2020-05-09 14:03:19,571 INFO 22732 [egg-security] use dta middleware
+2020-05-09 14:03:19,571 INFO 22732 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 14:03:19,584 INFO 22732 [egg:core] dump config after load, 6ms
+2020-05-09 14:03:19,607 INFO 22732 [egg-watcher:application] watcher start success
+2020-05-09 14:03:19,613 INFO 22732 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 14:03:19 GMT+0800 (GMT+08:00)
+2020-05-09 14:03:19,624 INFO 22732 [egg:core] dump config after ready, 8ms
+2020-05-09 14:03:33,971 INFO 7220 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 14:03:34,001 INFO 7220 [egg-multipart] stream mode enable
+2020-05-09 14:03:34,001 INFO 7220 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 14:03:34,125 INFO 7220 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 14:03:34,127 INFO 7220 [egg-security] use methodnoallow middleware
+2020-05-09 14:03:34,127 INFO 7220 [egg-security] use noopen middleware
+2020-05-09 14:03:34,128 INFO 7220 [egg-security] use nosniff middleware
+2020-05-09 14:03:34,128 INFO 7220 [egg-security] use xssProtection middleware
+2020-05-09 14:03:34,129 INFO 7220 [egg-security] use xframe middleware
+2020-05-09 14:03:34,130 INFO 7220 [egg-security] use dta middleware
+2020-05-09 14:03:34,130 INFO 7220 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 14:03:34,141 INFO 7220 [egg:core] dump config after load, 5ms
+2020-05-09 14:03:34,160 INFO 7220 [egg-watcher:application] watcher start success
+2020-05-09 14:03:34,167 INFO 7220 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 14:03:34 GMT+0800 (GMT+08:00)
+2020-05-09 14:03:34,174 INFO 7220 [egg:core] dump config after ready, 6ms
+2020-05-09 14:04:14,425 INFO 28148 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 14:04:14,453 INFO 28148 [egg-multipart] stream mode enable
+2020-05-09 14:04:14,454 INFO 28148 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 14:04:14,584 INFO 28148 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 14:04:14,586 INFO 28148 [egg-security] use methodnoallow middleware
+2020-05-09 14:04:14,586 INFO 28148 [egg-security] use noopen middleware
+2020-05-09 14:04:14,587 INFO 28148 [egg-security] use nosniff middleware
+2020-05-09 14:04:14,587 INFO 28148 [egg-security] use xssProtection middleware
+2020-05-09 14:04:14,588 INFO 28148 [egg-security] use xframe middleware
+2020-05-09 14:04:14,588 INFO 28148 [egg-security] use dta middleware
+2020-05-09 14:04:14,589 INFO 28148 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 14:04:14,602 INFO 28148 [egg:core] dump config after load, 7ms
+2020-05-09 14:04:14,620 INFO 28148 [egg-watcher:application] watcher start success
+2020-05-09 14:04:14,625 INFO 28148 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 14:04:14 GMT+0800 (GMT+08:00)
+2020-05-09 14:04:14,634 INFO 28148 [egg:core] dump config after ready, 6ms
+2020-05-09 14:04:43,277 INFO 28340 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 14:04:43,303 INFO 28340 [egg-multipart] stream mode enable
+2020-05-09 14:04:43,303 INFO 28340 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 14:04:43,429 INFO 28340 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 14:04:43,432 INFO 28340 [egg-security] use methodnoallow middleware
+2020-05-09 14:04:43,433 INFO 28340 [egg-security] use noopen middleware
+2020-05-09 14:04:43,433 INFO 28340 [egg-security] use nosniff middleware
+2020-05-09 14:04:43,434 INFO 28340 [egg-security] use xssProtection middleware
+2020-05-09 14:04:43,434 INFO 28340 [egg-security] use xframe middleware
+2020-05-09 14:04:43,435 INFO 28340 [egg-security] use dta middleware
+2020-05-09 14:04:43,435 INFO 28340 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 14:04:43,450 INFO 28340 [egg:core] dump config after load, 7ms
+2020-05-09 14:04:43,476 INFO 28340 [egg-watcher:application] watcher start success
+2020-05-09 14:04:43,482 INFO 28340 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 14:04:43 GMT+0800 (GMT+08:00)
+2020-05-09 14:04:43,492 INFO 28340 [egg:core] dump config after ready, 8ms
+2020-05-09 14:07:06,874 INFO 27984 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 14:07:06,900 INFO 27984 [egg-multipart] stream mode enable
+2020-05-09 14:07:06,901 INFO 27984 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 14:07:07,012 INFO 27984 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 14:07:07,016 INFO 27984 [egg-security] use methodnoallow middleware
+2020-05-09 14:07:07,017 INFO 27984 [egg-security] use noopen middleware
+2020-05-09 14:07:07,018 INFO 27984 [egg-security] use nosniff middleware
+2020-05-09 14:07:07,018 INFO 27984 [egg-security] use xssProtection middleware
+2020-05-09 14:07:07,019 INFO 27984 [egg-security] use xframe middleware
+2020-05-09 14:07:07,020 INFO 27984 [egg-security] use dta middleware
+2020-05-09 14:07:07,020 INFO 27984 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 14:07:07,036 INFO 27984 [egg:core] dump config after load, 5ms
+2020-05-09 14:07:07,054 INFO 27984 [egg-watcher:application] watcher start success
+2020-05-09 14:07:07,060 INFO 27984 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 14:07:07 GMT+0800 (GMT+08:00)
+2020-05-09 14:07:07,067 INFO 27984 [egg:core] dump config after ready, 5ms
+2020-05-09 14:07:08,039 INFO 2268 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 14:07:08,065 INFO 2268 [egg-multipart] stream mode enable
+2020-05-09 14:07:08,065 INFO 2268 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 14:07:08,172 INFO 2268 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 14:07:08,174 INFO 2268 [egg-security] use methodnoallow middleware
+2020-05-09 14:07:08,174 INFO 2268 [egg-security] use noopen middleware
+2020-05-09 14:07:08,175 INFO 2268 [egg-security] use nosniff middleware
+2020-05-09 14:07:08,175 INFO 2268 [egg-security] use xssProtection middleware
+2020-05-09 14:07:08,176 INFO 2268 [egg-security] use xframe middleware
+2020-05-09 14:07:08,176 INFO 2268 [egg-security] use dta middleware
+2020-05-09 14:07:08,176 INFO 2268 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 14:07:08,187 INFO 2268 [egg:core] dump config after load, 4ms
+2020-05-09 14:07:08,205 INFO 2268 [egg-watcher:application] watcher start success
+2020-05-09 14:07:08,207 INFO 2268 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 14:07:08 GMT+0800 (GMT+08:00)
+2020-05-09 14:07:08,216 INFO 2268 [egg:core] dump config after ready, 8ms
+2020-05-09 14:09:19,526 INFO 28332 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 14:09:19,552 INFO 28332 [egg-multipart] stream mode enable
+2020-05-09 14:09:19,553 INFO 28332 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 14:09:19,686 INFO 28332 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 14:09:19,690 INFO 28332 [egg-security] use methodnoallow middleware
+2020-05-09 14:09:19,690 INFO 28332 [egg-security] use noopen middleware
+2020-05-09 14:09:19,691 INFO 28332 [egg-security] use nosniff middleware
+2020-05-09 14:09:19,692 INFO 28332 [egg-security] use xssProtection middleware
+2020-05-09 14:09:19,692 INFO 28332 [egg-security] use xframe middleware
+2020-05-09 14:09:19,693 INFO 28332 [egg-security] use dta middleware
+2020-05-09 14:09:19,693 INFO 28332 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 14:09:19,706 INFO 28332 [egg:core] dump config after load, 7ms
+2020-05-09 14:09:19,727 INFO 28332 [egg-watcher:application] watcher start success
+2020-05-09 14:09:19,732 INFO 28332 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 14:09:19 GMT+0800 (GMT+08:00)
+2020-05-09 14:09:19,742 INFO 28332 [egg:core] dump config after ready, 7ms
+2020-05-09 14:10:42,983 INFO 20320 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 14:10:43,009 INFO 20320 [egg-multipart] stream mode enable
+2020-05-09 14:10:43,010 INFO 20320 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 14:10:43,135 INFO 20320 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 14:10:43,137 INFO 20320 [egg-security] use methodnoallow middleware
+2020-05-09 14:10:43,137 INFO 20320 [egg-security] use noopen middleware
+2020-05-09 14:10:43,138 INFO 20320 [egg-security] use nosniff middleware
+2020-05-09 14:10:43,138 INFO 20320 [egg-security] use xssProtection middleware
+2020-05-09 14:10:43,139 INFO 20320 [egg-security] use xframe middleware
+2020-05-09 14:10:43,139 INFO 20320 [egg-security] use dta middleware
+2020-05-09 14:10:43,139 INFO 20320 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 14:10:43,155 INFO 20320 [egg:core] dump config after load, 8ms
+2020-05-09 14:10:43,173 INFO 20320 [egg-watcher:application] watcher start success
+2020-05-09 14:10:43,178 INFO 20320 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 14:10:43 GMT+0800 (GMT+08:00)
+2020-05-09 14:10:43,185 INFO 20320 [egg:core] dump config after ready, 5ms
+2020-05-09 14:20:00,144 INFO 17644 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-09 14:20:00,169 INFO 17644 [egg-multipart] stream mode enable
+2020-05-09 14:20:00,170 INFO 17644 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-09 14:20:00,274 INFO 17644 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-09 14:20:00,276 INFO 17644 [egg-security] use methodnoallow middleware
+2020-05-09 14:20:00,277 INFO 17644 [egg-security] use noopen middleware
+2020-05-09 14:20:00,277 INFO 17644 [egg-security] use nosniff middleware
+2020-05-09 14:20:00,278 INFO 17644 [egg-security] use xssProtection middleware
+2020-05-09 14:20:00,278 INFO 17644 [egg-security] use xframe middleware
+2020-05-09 14:20:00,278 INFO 17644 [egg-security] use dta middleware
+2020-05-09 14:20:00,278 INFO 17644 [egg-security] compose 6 middlewares into one security middleware
+2020-05-09 14:20:00,289 INFO 17644 [egg:core] dump config after load, 4ms
+2020-05-09 14:20:00,304 INFO 17644 [egg-watcher:application] watcher start success
+2020-05-09 14:20:00,309 INFO 17644 [egg-mysql] instance[0] status OK, rds currentTime: Sat May 09 2020 14:20:00 GMT+0800 (GMT+08:00)
+2020-05-09 14:20:00,317 INFO 17644 [egg:core] dump config after ready, 6ms
+2020-05-10 13:31:02,566 WARN 17644 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-05-10 13:31:02,591 WARN 17644 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-10 13:31:02,617 INFO 17644 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=E:\reactBlog\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\Administrator\\AppData\\Local\\Temp\\egg-multipart-tmp\\service"
+2020-05-10 13:31:02,629 INFO 17644 [egg-logrotator] clean all log before 31 days
+2020-05-10 13:31:02,634 INFO 17644 [-/127.0.0.1/-/20ms SCHEDULE /__schedule?path=E:\reactBlog\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-05-10 13:31:08,721 INFO 17644 [egg-logrotator] broadcast log-reload
+2020-05-10 13:31:08,722 INFO 17644 [egg-logrotator] rotate files success by DayRotator, files ["E:\\reactBlog\\service\\logs\\service\\common-error.log -> E:\\reactBlog\\service\\logs\\service\\common-error.log.2020-05-09","E:\\reactBlog\\service\\logs\\service\\service-web.log -> E:\\reactBlog\\service\\logs\\service\\service-web.log.2020-05-09","E:\\reactBlog\\service\\logs\\service\\egg-web.log -> E:\\reactBlog\\service\\logs\\service\\egg-web.log.2020-05-09","E:\\reactBlog\\service\\logs\\service\\egg-schedule.log -> E:\\reactBlog\\service\\logs\\service\\egg-schedule.log.2020-05-09","E:\\reactBlog\\service\\logs\\service\\egg-agent.log -> E:\\reactBlog\\service\\logs\\service\\egg-agent.log.2020-05-09"]

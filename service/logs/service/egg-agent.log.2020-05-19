@@ -1,0 +1,53 @@
+2020-05-16 08:58:51,160 INFO 23712 [egg-logrotator] agent logger reload: got log-reload message
+2020-05-16 13:39:54,844 ERROR 23712 nodejs.ClusterClientNoResponseError: client no response in 4573994ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 23712
+hostname: AUUX0RJNSI27X9S
+
+2020-05-19 09:19:30,926 INFO 1440 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-19 09:19:30,938 INFO 1440 [egg:core] dump config after load, 6ms
+2020-05-19 09:19:31,170 INFO 1440 [egg-watcher] Start watching: ["E:\\reactBlog\\service\\app","E:\\reactBlog\\service\\config","E:\\reactBlog\\service\\mocks","E:\\reactBlog\\service\\mocks_proxy","E:\\reactBlog\\service\\app.js"]
+2020-05-19 09:19:31,170 INFO 1440 [egg-watcher] Start watching: "E:\\reactBlog\\service\\app"
+2020-05-19 09:19:31,171 INFO 1440 [egg-watcher] Start watching: "E:\\reactBlog\\service\\config"
+2020-05-19 09:19:31,171 INFO 1440 [egg-watcher] Start watching: "E:\\reactBlog\\service\\mocks"
+2020-05-19 09:19:31,171 INFO 1440 [egg-watcher] Start watching: "E:\\reactBlog\\service\\mocks_proxy"
+2020-05-19 09:19:31,171 INFO 1440 [egg-watcher] Start watching: "E:\\reactBlog\\service\\app.js"
+2020-05-19 09:19:31,172 INFO 1440 [egg-watcher:agent] watcher start success
+2020-05-19 09:19:31,192 INFO 1440 [egg:core] dump config after ready, 10ms
+2020-05-19 09:20:15,811 INFO 11788 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-19 09:20:15,823 INFO 11788 [egg:core] dump config after load, 6ms
+2020-05-19 09:20:15,911 INFO 11788 [egg-watcher] Start watching: ["E:\\reactBlog\\service\\app","E:\\reactBlog\\service\\config","E:\\reactBlog\\service\\mocks","E:\\reactBlog\\service\\mocks_proxy","E:\\reactBlog\\service\\app.js"]
+2020-05-19 09:20:15,912 INFO 11788 [egg-watcher] Start watching: "E:\\reactBlog\\service\\app"
+2020-05-19 09:20:15,912 INFO 11788 [egg-watcher] Start watching: "E:\\reactBlog\\service\\config"
+2020-05-19 09:20:15,912 INFO 11788 [egg-watcher] Start watching: "E:\\reactBlog\\service\\mocks"
+2020-05-19 09:20:15,912 INFO 11788 [egg-watcher] Start watching: "E:\\reactBlog\\service\\mocks_proxy"
+2020-05-19 09:20:15,913 INFO 11788 [egg-watcher] Start watching: "E:\\reactBlog\\service\\app.js"
+2020-05-19 09:20:15,913 INFO 11788 [egg-watcher:agent] watcher start success
+2020-05-19 09:20:15,933 INFO 11788 [egg:core] dump config after ready, 11ms
+2020-05-19 13:35:05,590 ERROR 11788 nodejs.ClusterClientNoResponseError: client no response in 4427437ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 11788
+hostname: AUUX0RJNSI27X9S
+
+2020-05-19 18:45:55,715 ERROR 11788 nodejs.ClusterClientNoResponseError: client no response in 769581ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 11788
+hostname: AUUX0RJNSI27X9S
+
+2020-05-20 09:00:25,243 ERROR 11788 nodejs.ClusterClientNoResponseError: client no response in 49449206ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 11788
+hostname: AUUX0RJNSI27X9S
+

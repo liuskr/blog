@@ -4,6 +4,7 @@ import { getUserInfo, delArticle } from '../api'
 import { ExclamationCircleOutlined } from '@ant-design/icons';
 const { confirm } = Modal;
 
+
 const ArticleList = () => {
   const [loading, setLoading] = useState(true);
   const [dataSource, setDataSource] = useState([]);
@@ -16,7 +17,18 @@ const ArticleList = () => {
   const getUserTable = async () => {
     setLoading(false)
     await getUserInfo().then(res => {
-      setDataSource(res.data.list)
+      const results = res.data.list;
+      // react的dom-diff算法 需添加key值
+      const data = results.map(row => ({
+        id: row.id,
+        key: row.id,
+        addTime: row.addTime,
+        introduce: row.introduce,
+        title: row.title,
+        typeName: row.typeName,
+        view_count: row.view_count
+      }))
+      setDataSource(data)
     })
   }
 
@@ -39,7 +51,7 @@ const ArticleList = () => {
     {
       title: '标题',     //列名称
       dataIndex: 'title',      //数据源的字段名
-      key: 'title'
+      key: '0'
     },
     {
       title: '类别',
@@ -72,7 +84,7 @@ const ArticleList = () => {
   return (
     <div>
       <Spin tip="Loading..." spinning={loading}>
-        <Table columns={columns} dataSource={dataSource} bordered pagination={false} />
+        <Table columns={columns} key={dataSource.id} dataSource={dataSource} bordered pagination={false} />
       </Spin>
     </div>
 

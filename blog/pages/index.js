@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import axios from 'axios'
 import Head from 'next/head'
 import Link from 'next/link'
@@ -7,7 +7,7 @@ import Aurhor from '../components/Author'
 import servicePath from '../config/api'
 import marked from 'marked'
 import '../public/style/pages/index.css'
-import { Row, Col, List, Affix, Spin, BackTop } from 'antd'
+import { Row, Col, List, Affix, Spin, BackTop, Tooltip, Skeleton } from 'antd'
 import CountUp from 'react-countup';
 import { CarryOutOutlined, YoutubeOutlined, FireOutlined, RocketOutlined } from '@ant-design/icons'
 const Home = (props) => {
@@ -76,23 +76,24 @@ const Home = (props) => {
               </Spin>
             }
           />
+
         </Col>
         <Col className='comm-right' xs={0} sm={0} md={6} lg={6} xl={3}>
           <Aurhor />
         </Col>
       </Row>
-      <BackTop>
-        <RocketOutlined style={style} />
-      </BackTop>
+      <Tooltip title="返回顶部" placement="left">
+        <BackTop>
+          <RocketOutlined style={style} />
+        </BackTop>
+      </Tooltip>
     </div>
   )
 }
 Home.getInitialProps = async () => {
   const promise = new Promise(resolve => {
     axios(servicePath.getArticleList).then(res => {
-      console.log(res.data)
       resolve(res.data)
-
     })
   })
   return await promise

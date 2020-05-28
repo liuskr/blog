@@ -13,6 +13,7 @@ import servicePath from '../config/api'
 import 'highlight.js/styles/monokai-sublime.css';
 import CountUp from 'react-countup';
 const Detailed = (props) => {
+
   const tocift = new Tocify();
   const renderer = new marked.Renderer();
   renderer.heading = (text, level) => {
@@ -34,7 +35,7 @@ const Detailed = (props) => {
       return hljs.highlightAuto(code).value;
     }
   })
-  let html = marked(props.article_content)
+  let html = marked(props.article_content);
   const style = {
     height: 40,
     width: 40,
@@ -46,6 +47,7 @@ const Detailed = (props) => {
     textAlign: 'center',
     fontSize: 20,
   };
+
   return (
     <div>
       <Head>
@@ -87,8 +89,7 @@ const Detailed = (props) => {
           </Affix>
         </Col>
       </Row>
-      {/* {
-        /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent) ? <BackTop ><RocketOutlined style={style} /></BackTop> : ''} */}
+      <BackTop ><RocketOutlined style={style} /></BackTop>
 
     </div>
   )

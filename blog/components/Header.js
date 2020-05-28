@@ -47,7 +47,7 @@ const Header = () => {
               <Link href={{ pathname: '/list', query: { id: 3 } }}>
                 <a>
                   <RadarChartOutlined className='ftz' />
-                   Java
+                   Node
                </a>
               </Link>
             </Menu.Item>

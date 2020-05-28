@@ -27686,5 +27686,8 @@ div.ant-typography-edit-content.ant-typography-rtl {
 .ant-spin-nested-loading:last-child{
   border-bottom: none;
 }
+.bread-div{
+  padding: 1rem;
+}
 
 /*# sourceMappingURL=styles.chunk.css.map*/

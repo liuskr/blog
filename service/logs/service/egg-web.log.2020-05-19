@@ -1,0 +1,39 @@
+2020-05-16 08:58:49,490 INFO 26104 [egg-logrotator] app logger reload: got log-reload message
+2020-05-16 13:39:54,840 WARN 26104 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-19 09:19:33,429 INFO 6668 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-19 09:19:33,472 INFO 6668 [egg-multipart] stream mode enable
+2020-05-19 09:19:33,473 INFO 6668 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-19 09:19:34,529 INFO 6668 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-19 09:19:34,546 INFO 6668 [egg-security] use methodnoallow middleware
+2020-05-19 09:19:34,547 INFO 6668 [egg-security] use noopen middleware
+2020-05-19 09:19:34,549 INFO 6668 [egg-security] use nosniff middleware
+2020-05-19 09:19:34,550 INFO 6668 [egg-security] use xssProtection middleware
+2020-05-19 09:19:34,551 INFO 6668 [egg-security] use xframe middleware
+2020-05-19 09:19:34,562 INFO 6668 [egg-security] use dta middleware
+2020-05-19 09:19:34,562 INFO 6668 [egg-security] compose 6 middlewares into one security middleware
+2020-05-19 09:19:34,603 INFO 6668 [egg:core] dump config after load, 8ms
+2020-05-19 09:19:34,636 INFO 6668 [egg-watcher:application] watcher start success
+2020-05-19 09:20:17,578 INFO 3108 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-19 09:20:17,621 INFO 3108 [egg-multipart] stream mode enable
+2020-05-19 09:20:17,621 INFO 3108 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-19 09:20:17,800 INFO 3108 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-19 09:20:17,804 INFO 3108 [egg-security] use methodnoallow middleware
+2020-05-19 09:20:17,805 INFO 3108 [egg-security] use noopen middleware
+2020-05-19 09:20:17,807 INFO 3108 [egg-security] use nosniff middleware
+2020-05-19 09:20:17,808 INFO 3108 [egg-security] use xssProtection middleware
+2020-05-19 09:20:17,808 INFO 3108 [egg-security] use xframe middleware
+2020-05-19 09:20:17,809 INFO 3108 [egg-security] use dta middleware
+2020-05-19 09:20:17,810 INFO 3108 [egg-security] compose 6 middlewares into one security middleware
+2020-05-19 09:20:17,830 INFO 3108 [egg:core] dump config after load, 9ms
+2020-05-19 09:20:17,863 INFO 3108 [egg-watcher:application] watcher start success
+2020-05-19 09:20:17,872 INFO 3108 [egg-mysql] instance[0] status OK, rds currentTime: Tue May 19 2020 09:20:17 GMT+0800 (GMT+08:00)
+2020-05-19 09:20:17,884 INFO 3108 [egg:core] dump config after ready, 10ms
+2020-05-19 13:35:05,559 WARN 3108 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-05-19 13:35:05,565 WARN 3108 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-19 18:45:55,710 WARN 3108 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-20 09:00:24,965 WARN 3108 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-20 09:00:25,300 INFO 3108 [-/127.0.0.1/-/1ms SCHEDULE /__schedule?path=E:\reactBlog\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\Administrator\\AppData\\Local\\Temp\\egg-multipart-tmp\\service"
+2020-05-20 09:00:25,316 INFO 3108 [egg-logrotator] clean all log before 31 days
+2020-05-20 09:00:25,335 INFO 3108 [-/127.0.0.1/-/36ms SCHEDULE /__schedule?path=E:\reactBlog\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-05-20 09:00:25,339 INFO 3108 [egg-logrotator] broadcast log-reload
+2020-05-20 09:00:25,340 INFO 3108 [egg-logrotator] rotate files success by DayRotator, files ["E:\\reactBlog\\service\\logs\\service\\common-error.log -> E:\\reactBlog\\service\\logs\\service\\common-error.log.2020-05-19","E:\\reactBlog\\service\\logs\\service\\service-web.log -> E:\\reactBlog\\service\\logs\\service\\service-web.log.2020-05-19","E:\\reactBlog\\service\\logs\\service\\egg-web.log -> E:\\reactBlog\\service\\logs\\service\\egg-web.log.2020-05-19","E:\\reactBlog\\service\\logs\\service\\egg-schedule.log -> E:\\reactBlog\\service\\logs\\service\\egg-schedule.log.2020-05-19","E:\\reactBlog\\service\\logs\\service\\egg-agent.log -> E:\\reactBlog\\service\\logs\\service\\egg-agent.log.2020-05-19"]

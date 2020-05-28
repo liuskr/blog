@@ -1,0 +1,57 @@
+2020-05-14 09:04:32,412 INFO 31476 [egg-logrotator] app logger reload: got log-reload message
+2020-05-14 11:24:37,138 INFO 26104 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-05-14 11:24:37,169 INFO 26104 [egg-multipart] stream mode enable
+2020-05-14 11:24:37,170 INFO 26104 [egg-mysql] connecting root@localhost:3306/react-blog
+2020-05-14 11:24:39,550 INFO 26104 [egg-static] starting static serve /public/ -> E:\reactBlog\service\app\public
+2020-05-14 11:24:39,558 INFO 26104 [egg-security] use methodnoallow middleware
+2020-05-14 11:24:39,560 INFO 26104 [egg-security] use noopen middleware
+2020-05-14 11:24:39,561 INFO 26104 [egg-security] use nosniff middleware
+2020-05-14 11:24:39,563 INFO 26104 [egg-security] use xssProtection middleware
+2020-05-14 11:24:39,564 INFO 26104 [egg-security] use xframe middleware
+2020-05-14 11:24:39,591 INFO 26104 [egg-security] use dta middleware
+2020-05-14 11:24:39,592 INFO 26104 [egg-security] compose 6 middlewares into one security middleware
+2020-05-14 11:24:39,698 INFO 26104 [egg:core] dump config after load, 46ms
+2020-05-14 11:24:39,737 INFO 26104 [egg-watcher:application] watcher start success
+2020-05-14 11:24:39,741 INFO 26104 [egg-mysql] instance[0] status OK, rds currentTime: Thu May 14 2020 11:24:39 GMT+0800 (GMT+08:00)
+2020-05-14 11:24:39,883 INFO 26104 [egg:core] dump config after ready, 139ms
+2020-05-14 12:34:01,529 WARN 26104 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-05-14 12:34:01,560 WARN 26104 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-14 13:42:00,844 WARN 26104 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-05-14 13:42:00,847 WARN 26104 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-14 18:51:58,507 WARN 26104 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-14 20:09:01,504 WARN 26104 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-05-14 20:09:01,541 WARN 26104 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-15 09:00:52,565 WARN 26104 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-05-15 09:00:52,592 WARN 26104 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-15 09:01:02,295 ERROR 26104 nodejs.TcpConnectionTimeoutError: [TCPBase] socket connect timeout (3000ms) (address: 127.0.0.1:60913) (127.0.0.1) (127.0.0.1) (127.0.0.1)
+    at Socket.<anonymous> (E:\reactBlog\service\node_modules\tcp-base\lib\base.js:404:19)
+    at Object.onceWrapper (events.js:417:28)
+    at Socket.emit (events.js:311:20)
+    at Socket._onTimeout (net.js:478:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "TcpConnectionTimeoutError"
+host: "127.0.0.1"
+port: 60913
+pid: 26104
+hostname: AUUX0RJNSI27X9S
+
+2020-05-15 09:01:02,300 ERROR 26104 nodejs.TcpConnectionTimeoutError: [TCPBase] socket connect timeout (3000ms) (address: 127.0.0.1:60913) (127.0.0.1) (127.0.0.1) (127.0.0.1) (127.0.0.1) (127.0.0.1) (127.0.0.1)
+    at Socket.<anonymous> (E:\reactBlog\service\node_modules\tcp-base\lib\base.js:404:19)
+    at Object.onceWrapper (events.js:417:28)
+    at Socket.emit (events.js:311:20)
+    at Socket._onTimeout (net.js:478:8)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "TcpConnectionTimeoutError"
+host: "127.0.0.1"
+port: 60913
+pid: 26104
+hostname: AUUX0RJNSI27X9S
+
+2020-05-15 09:01:02,300 WARN 26104 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-15 09:01:03,622 INFO 26104 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=E:\reactBlog\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\Administrator\\AppData\\Local\\Temp\\egg-multipart-tmp\\service"
+2020-05-15 09:01:03,846 INFO 26104 [-/127.0.0.1/-/227ms SCHEDULE /__schedule?path=E:\reactBlog\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-05-15 09:01:05,450 INFO 26104 [egg-logrotator] clean all log before 31 days
+2020-05-15 09:01:05,453 INFO 26104 [egg-logrotator] broadcast log-reload
+2020-05-15 09:01:05,453 INFO 26104 [egg-logrotator] rotate files success by DayRotator, files ["E:\\reactBlog\\service\\logs\\service\\common-error.log -> E:\\reactBlog\\service\\logs\\service\\common-error.log.2020-05-14","E:\\reactBlog\\service\\logs\\service\\service-web.log -> E:\\reactBlog\\service\\logs\\service\\service-web.log.2020-05-14","E:\\reactBlog\\service\\logs\\service\\egg-web.log -> E:\\reactBlog\\service\\logs\\service\\egg-web.log.2020-05-14","E:\\reactBlog\\service\\logs\\service\\egg-schedule.log -> E:\\reactBlog\\service\\logs\\service\\egg-schedule.log.2020-05-14","E:\\reactBlog\\service\\logs\\service\\egg-agent.log -> E:\\reactBlog\\service\\logs\\service\\egg-agent.log.2020-05-14"]

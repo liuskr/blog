@@ -1,0 +1,5 @@
+2020-05-22 09:00:21,100 INFO 3108 [egg-logrotator] app logger reload: got log-reload message
+2020-05-22 22:01:50,892 WARN 3108 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-05-22 22:01:50,901 WARN 3108 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-05-23 00:00:01,033 INFO 3108 [egg-logrotator] broadcast log-reload
+2020-05-23 00:00:01,033 INFO 3108 [egg-logrotator] rotate files success by DayRotator, files ["E:\\reactBlog\\service\\logs\\service\\common-error.log -> E:\\reactBlog\\service\\logs\\service\\common-error.log.2020-05-22","E:\\reactBlog\\service\\logs\\service\\service-web.log -> E:\\reactBlog\\service\\logs\\service\\service-web.log.2020-05-22","E:\\reactBlog\\service\\logs\\service\\egg-web.log -> E:\\reactBlog\\service\\logs\\service\\egg-web.log.2020-05-22","E:\\reactBlog\\service\\logs\\service\\egg-schedule.log -> E:\\reactBlog\\service\\logs\\service\\egg-schedule.log.2020-05-22","E:\\reactBlog\\service\\logs\\service\\egg-agent.log -> E:\\reactBlog\\service\\logs\\service\\egg-agent.log.2020-05-22"]

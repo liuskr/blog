@@ -1,0 +1,3 @@
+2020-05-23 00:00:01,009 INFO 3108 [Job#1590163200986381774640423344] E:\reactBlog\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2020-05-23 00:00:01,033 INFO 3108 [Job#1590163200986381774640423344] E:\reactBlog\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 22ms
+2020-05-23 00:00:01,011 INFO 11788 [Timer] E:\reactBlog\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 86400011ms at 2020-05-24 00:00:01.022

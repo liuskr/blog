@@ -1,0 +1,384 @@
+2020-05-09 11:38:36,449 ERROR 23508 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:66:26)
+    at HomeController.getListById (E:\reactBlog\service\app\controller\default\home.js:60:10)
+
+pid: 23508
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:38:58,607 ERROR 23508 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:66:26)
+    at HomeController.getListById (E:\reactBlog\service\app\controller\default\home.js:60:10)
+
+pid: 23508
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:39:42,136 ERROR 23508 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:66:26)
+    at HomeController.getListById (E:\reactBlog\service\app\controller\default\home.js:60:10)
+
+pid: 23508
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:41:00,573 ERROR 9472 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:66:26)
+    at HomeController.getListById (E:\reactBlog\service\app\controller\default\home.js:61:10)
+
+pid: 9472
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:42:55,946 ERROR 27364 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:67:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:38:10)
+
+pid: 27364
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:43:08,238 ERROR 27364 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:67:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:38:10)
+
+pid: 27364
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:43:25,738 ERROR 27364 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:67:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:38:10)
+
+pid: 27364
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:43:28,508 ERROR 27364 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:67:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:38:10)
+
+pid: 27364
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:43:29,299 ERROR 27364 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:67:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:38:10)
+
+pid: 27364
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:43:49,983 ERROR 12172 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:67:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:38:10)
+
+pid: 12172
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:45:31,822 ERROR 26464 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:67:41)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:38:10)
+
+pid: 26464
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:45:46,738 ERROR 27108 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:67:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:39:10)
+
+pid: 27108
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:46:24,249 ERROR 26636 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:14:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:45:10)
+
+pid: 26636
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:47:05,023 ERROR 23940 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:15:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:46:10)
+
+pid: 23940
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 11:48:39,015 ERROR 20608 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:14:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:44:10)
+
+pid: 20608
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 13:49:09,742 ERROR 3940 nodejs.ClusterClientNoResponseError: client no response in 5253046ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 3940
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 13:50:32,485 ERROR 28140 [-/127.0.0.1/-/4ms GET /default/getArticleById/11] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article' at line 1
+    at Query.Sequence._packetToError (E:\reactBlog\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\reactBlog\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\reactBlog\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\reactBlog\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\reactBlog\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\reactBlog\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\reactBlog\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\reactBlog\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (E:\reactBlog\service\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\reactBlog\service\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\reactBlog\service\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\reactBlog\service\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\reactBlog\service\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    sql: article
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article' at line 1"
+sqlState: "42000"
+index: 0
+sql: "article"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 28140
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 13:52:51,569 ERROR 17500 [-/127.0.0.1/-/3ms GET /default/getArticleById/11] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article' at line 1
+    at Query.Sequence._packetToError (E:\reactBlog\service\node_modules\mysql\lib\protocol\sequences\Sequence.js:47:14)
+    at Query.ErrorPacket (E:\reactBlog\service\node_modules\mysql\lib\protocol\sequences\Query.js:79:18)
+    at Protocol._parsePacket (E:\reactBlog\service\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (E:\reactBlog\service\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (E:\reactBlog\service\node_modules\mysql\lib\protocol\Parser.js:43:10)
+    at Protocol.write (E:\reactBlog\service\node_modules\mysql\lib\protocol\Protocol.js:38:16)
+    at Socket.<anonymous> (E:\reactBlog\service\node_modules\mysql\lib\Connection.js:88:28)
+    at Socket.<anonymous> (E:\reactBlog\service\node_modules\mysql\lib\Connection.js:526:10)
+    at Socket.emit (events.js:311:20)
+    at addChunk (_stream_readable.js:294:12)
+    --------------------
+    at Pool.query (E:\reactBlog\service\node_modules\mysql\lib\Pool.js:199:23)
+    at E:\reactBlog\service\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (E:\reactBlog\service\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (E:\reactBlog\service\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (E:\reactBlog\service\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    sql: article
+code: "ER_PARSE_ERROR"
+errno: 1064
+sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'article' at line 1"
+sqlState: "42000"
+index: 0
+sql: "article"
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+name: "ER_PARSE_ERRORError"
+pid: 17500
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 13:53:14,687 ERROR 13408 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:14:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:45:10)
+
+pid: 13408
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 13:53:32,886 ERROR 13408 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:14:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:45:10)
+
+pid: 13408
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 13:53:34,903 ERROR 13408 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:14:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:45:10)
+
+pid: 13408
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 13:53:42,752 ERROR 13408 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\reactBlog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\reactBlog\service\node_modules\co\index.js:65:19)
+    at E:\reactBlog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\reactBlog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\reactBlog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\reactBlog\service\app\controller\default\home.js:14:26)
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:45:10)
+
+pid: 13408
+hostname: AUUX0RJNSI27X9S
+
+2020-05-09 13:58:33,772 ERROR 21588 [-/127.0.0.1/-/16ms GET /default/getArticleById/11] nodejs.TypeError: this.pageViews is not a function
+    at HomeController.getArticleById (E:\reactBlog\service\app\controller\default\home.js:44:10)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async E:\reactBlog\service\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\reactBlog\service\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\reactBlog\service\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\reactBlog\service\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\reactBlog\service\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\reactBlog\service\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\reactBlog\service\node_modules\koa-bodyparser\index.js:95:5)
+    at async E:\reactBlog\service\node_modules\koa-static-cache\index.js:53:56
+headers: {"Access-Control-Allow-Origin":"http://localhost:3000","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 21588
+hostname: AUUX0RJNSI27X9S
+
+2020-05-10 13:31:02,611 ERROR 12896 nodejs.ClusterClientNoResponseError: client no response in 67681684ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 12896
+hostname: AUUX0RJNSI27X9S
+

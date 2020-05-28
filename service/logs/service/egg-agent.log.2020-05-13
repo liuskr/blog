@@ -1,0 +1,59 @@
+2020-05-12 09:01:43,621 INFO 12896 [egg-logrotator] agent logger reload: got log-reload message
+2020-05-12 13:07:07,646 ERROR 12896 nodejs.ClusterClientNoResponseError: client no response in 2383669ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 12896
+hostname: AUUX0RJNSI27X9S
+
+2020-05-12 13:15:31,340 ERROR 12896 nodejs.ClusterClientNoResponseError: client no response in 363497ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 12896
+hostname: AUUX0RJNSI27X9S
+
+2020-05-12 13:47:20,763 ERROR 12896 nodejs.ClusterClientNoResponseError: client no response in 89341ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 12896
+hostname: AUUX0RJNSI27X9S
+
+2020-05-13 09:32:22,665 INFO 28624 [egg:logger] init all loggers with options: {"dir":"E:\\reactBlog\\service\\logs\\service","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"service-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2020-05-13 09:32:22,673 INFO 28624 [egg:core] dump config after load, 4ms
+2020-05-13 09:32:22,835 INFO 28624 [egg-watcher] Start watching: ["E:\\reactBlog\\service\\app","E:\\reactBlog\\service\\config","E:\\reactBlog\\service\\mocks","E:\\reactBlog\\service\\mocks_proxy","E:\\reactBlog\\service\\app.js"]
+2020-05-13 09:32:22,835 INFO 28624 [egg-watcher] Start watching: "E:\\reactBlog\\service\\app"
+2020-05-13 09:32:22,835 INFO 28624 [egg-watcher] Start watching: "E:\\reactBlog\\service\\config"
+2020-05-13 09:32:22,836 INFO 28624 [egg-watcher] Start watching: "E:\\reactBlog\\service\\mocks"
+2020-05-13 09:32:22,836 INFO 28624 [egg-watcher] Start watching: "E:\\reactBlog\\service\\mocks_proxy"
+2020-05-13 09:32:22,836 INFO 28624 [egg-watcher] Start watching: "E:\\reactBlog\\service\\app.js"
+2020-05-13 09:32:22,836 INFO 28624 [egg-watcher:agent] watcher start success
+2020-05-13 09:32:22,895 INFO 28624 [egg:core] dump config after ready, 8ms
+2020-05-13 13:04:56,599 ERROR 28624 nodejs.ClusterClientNoResponseError: client no response in 2550406ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 28624
+hostname: AUUX0RJNSI27X9S
+
+2020-05-13 13:40:15,351 ERROR 28624 nodejs.ClusterClientNoResponseError: client no response in 198338ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 28624
+hostname: AUUX0RJNSI27X9S
+
+2020-05-14 09:04:14,267 ERROR 28624 nodejs.ClusterClientNoResponseError: client no response in 49602076ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\reactBlog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 28624
+hostname: AUUX0RJNSI27X9S
+
