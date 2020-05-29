@@ -7,7 +7,7 @@ import Aurhor from '../components/Author'
 import servicePath from '../config/api'
 import marked from 'marked'
 import '../public/style/pages/index.css'
-import { Row, Col, List, Affix, Spin, BackTop, Tooltip, Skeleton } from 'antd'
+import { Row, Col, List, Affix, Spin, BackTop, Tooltip } from 'antd'
 import CountUp from 'react-countup';
 import { CarryOutOutlined, YoutubeOutlined, FireOutlined, RocketOutlined } from '@ant-design/icons'
 const Home = (props) => {

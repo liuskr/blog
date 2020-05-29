@@ -12,9 +12,11 @@ import { CarryOutOutlined, YoutubeOutlined, FireOutlined, } from '@ant-design/ic
 import CountUp from 'react-countup';
 let load = true;
 const myList = (props) => {
+
   const [ilist, setList] = useState(props.data);
   const [loading, setLoading] = useState(false);
   const [skeleton, setSkeleton] = useState(load);
+
   const renderer = new marked.Renderer();
   marked.setOptions({
     renderer: renderer,
@@ -42,6 +44,7 @@ const myList = (props) => {
       <Head>
         <title>Home</title>
       </Head>
+
       <Header />
       <Row className='comm-main' justify="center">
         <Col className='comm-left' xs={24} sm={24} md={16} lg={14} xl={12}>
@@ -94,4 +97,5 @@ myList.getInitialProps = async (context) => {
   })
   return await promise
 }
+
 export default myList

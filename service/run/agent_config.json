@@ -77,7 +77,7 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "E:\\reactBlog\\service\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "E:\\myBlog\\blog\\service\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
@@ -90,8 +90,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "E:\\reactBlog\\service\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "E:\\reactBlog\\service\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "E:\\myBlog\\blog\\service\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "E:\\myBlog\\blog\\service\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -137,14 +137,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "E:\\reactBlog\\service\\app\\public",
+      "dir": "E:\\myBlog\\blog\\service\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "E:\\reactBlog\\service\\app\\view",
+      "root": "E:\\myBlog\\blog\\service\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -228,9 +228,9 @@
       "author": "",
       "license": "MIT"
     },
-    "baseDir": "E:\\reactBlog\\service",
+    "baseDir": "E:\\myBlog\\blog\\service",
     "HOME": "C:\\Users\\Administrator",
-    "rundir": "E:\\reactBlog\\service\\run",
+    "rundir": "E:\\myBlog\\blog\\service\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -262,7 +262,7 @@
       "onerror": "<Function onerror>"
     },
     "logger": {
-      "dir": "E:\\reactBlog\\service\\logs\\service",
+      "dir": "E:\\myBlog\\blog\\service\\logs\\service",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -338,9 +338,9 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\reactBlog\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\reactBlog\\service\\node_modules\\egg-session",
-      "version": "3.1.0"
+      "from": "E:\\myBlog\\blog\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\myBlog\\blog\\service\\node_modules\\egg-session",
+      "version": "3.2.0"
     },
     "security": {
       "enable": true,
@@ -351,8 +351,8 @@
         "session"
       ],
       "env": [],
-      "from": "E:\\reactBlog\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\reactBlog\\service\\node_modules\\egg-security",
+      "from": "E:\\myBlog\\blog\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\myBlog\\blog\\service\\node_modules\\egg-security",
       "version": "2.8.0"
     },
     "jsonp": {
@@ -364,8 +364,8 @@
         "security"
       ],
       "env": [],
-      "from": "E:\\reactBlog\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\reactBlog\\service\\node_modules\\egg-jsonp",
+      "from": "E:\\myBlog\\blog\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\myBlog\\blog\\service\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -377,8 +377,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "E:\\reactBlog\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\reactBlog\\service\\node_modules\\egg-onerror",
+      "from": "E:\\myBlog\\blog\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\myBlog\\blog\\service\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -388,8 +388,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\reactBlog\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\reactBlog\\service\\node_modules\\egg-i18n",
+      "from": "E:\\myBlog\\blog\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\myBlog\\blog\\service\\node_modules\\egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -399,8 +399,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\reactBlog\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\reactBlog\\service\\node_modules\\egg-watcher",
+      "from": "E:\\myBlog\\blog\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\myBlog\\blog\\service\\node_modules\\egg-watcher",
       "version": "3.1.1"
     },
     "schedule": {
@@ -410,8 +410,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\reactBlog\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\reactBlog\\service\\node_modules\\egg-schedule",
+      "from": "E:\\myBlog\\blog\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\myBlog\\blog\\service\\node_modules\\egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -423,9 +423,9 @@
         "schedule"
       ],
       "env": [],
-      "from": "E:\\reactBlog\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\reactBlog\\service\\node_modules\\egg-multipart",
-      "version": "2.10.2"
+      "from": "E:\\myBlog\\blog\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\myBlog\\blog\\service\\node_modules\\egg-multipart",
+      "version": "2.10.3"
     },
     "development": {
       "enable": true,
@@ -438,9 +438,9 @@
       "env": [
         "local"
       ],
-      "from": "E:\\reactBlog\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\reactBlog\\service\\node_modules\\egg-development",
-      "version": "2.4.3"
+      "from": "E:\\myBlog\\blog\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\myBlog\\blog\\service\\node_modules\\egg-development",
+      "version": "2.5.0"
     },
     "logrotator": {
       "enable": true,
@@ -451,8 +451,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\reactBlog\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\reactBlog\\service\\node_modules\\egg-logrotator",
+      "from": "E:\\myBlog\\blog\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\myBlog\\blog\\service\\node_modules\\egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -462,8 +462,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\reactBlog\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\reactBlog\\service\\node_modules\\egg-static",
+      "from": "E:\\myBlog\\blog\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\myBlog\\blog\\service\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -473,8 +473,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\reactBlog\\service\\node_modules\\egg\\config\\plugin.js",
-      "path": "E:\\reactBlog\\service\\node_modules\\egg-view",
+      "from": "E:\\myBlog\\blog\\service\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\myBlog\\blog\\service\\node_modules\\egg-view",
       "version": "2.1.2"
     },
     "mysql": {
@@ -484,8 +484,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\reactBlog\\service\\config\\plugin.js",
-      "path": "E:\\reactBlog\\service\\node_modules\\egg-mysql",
+      "from": "E:\\myBlog\\blog\\service\\config\\plugin.js",
+      "path": "E:\\myBlog\\blog\\service\\node_modules\\egg-mysql",
       "version": "3.0.0"
     },
     "cors": {
@@ -495,8 +495,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "E:\\reactBlog\\service\\config\\plugin.js",
-      "path": "E:\\reactBlog\\service\\node_modules\\egg-cors",
+      "from": "E:\\myBlog\\blog\\service\\config\\plugin.js",
+      "path": "E:\\myBlog\\blog\\service\\node_modules\\egg-cors",
       "version": "2.2.3"
     }
   }
