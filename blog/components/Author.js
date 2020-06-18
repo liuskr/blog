@@ -7,10 +7,11 @@ const Author = () => {
   return (
     <div className='author-div comm-box'>
       <div>
-        <Avatar size={100} src='https://mirror-gold-cdn.xitu.io/16b2ad1a66368293ded?imageView2/1/w/100/h/100/q/85/format/webp/interlace/1' />
+        <Avatar size={100} src='https://hongdujuan.oss-cn-shenzhen.aliyuncs.com/Avatar.jpg' />
       </div>
       <div className='author-introduction'>
-        web
+        <p>代码是写出来给人看的</p>
+        <p>附带能在机器上运行</p>
         <Divider>社交账号</Divider>
         <Tooltip title="prompt text">
           <Avatar size={28} icon={<GithubOutlined />} className="account" />

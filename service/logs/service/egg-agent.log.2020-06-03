@@ -1,0 +1,17 @@
+2020-06-03 08:56:27,051 INFO 23676 [egg-logrotator] agent logger reload: got log-reload message
+2020-06-03 13:11:53,612 ERROR 23676 nodejs.ClusterClientNoResponseError: client no response in 5673700ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\myBlog\blog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 23676
+hostname: AUUX0RJNSI27X9S
+
+2020-06-04 08:55:23,674 ERROR 23676 nodejs.ClusterClientNoResponseError: client no response in 51602696ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\myBlog\blog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 23676
+hostname: AUUX0RJNSI27X9S
+

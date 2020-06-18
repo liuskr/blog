@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import '../public/style/components/header.css'
 import { Row, Col, Menu, Drawer } from 'antd'
 import Link from 'next/link'
-import { RadarChartOutlined, AreaChartOutlined, CrownOutlined, PlaySquareOutlined } from '@ant-design/icons'
+import { RadarChartOutlined, AreaChartOutlined, CrownOutlined, FundViewOutlined } from '@ant-design/icons'
 
 const Header = () => {
   const [visible, setVisible] = useState(false);
@@ -17,10 +17,6 @@ const Header = () => {
       setClas(1)
     }
   }
-  useEffect(() => {
-    window.clearTimeout(listSwitch)
-
-  }, [])
   const showDrawer = () => {
     showNavDrawer[visible]();
   };
@@ -38,7 +34,7 @@ const Header = () => {
         <Col xs={20} sm={20} md={8} lg={10} xl={7}>
           <div className='text logo' >Stone</div>
           <div className='text text2'>
-            <span>一个热爱编程的小菜鸟</span>
+            <span>热爱生活 告别过去</span>
           </div>
         </Col>
         <Col xs={0} sm={0} md={14} lg={12} xl={8} className="memu-div">
@@ -54,7 +50,7 @@ const Header = () => {
             <Menu.Item key="mails" className='ftz'>
               <Link href={{ pathname: '/list', query: { id: 1 } }}>
                 <a>
-                  <PlaySquareOutlined className='ftz' />
+                  <FundViewOutlined className='ftz' />
                     JavaScript
                </a>
               </Link>
@@ -71,7 +67,7 @@ const Header = () => {
               <Link href={{ pathname: '/list', query: { id: 3 } }}>
                 <a>
                   <RadarChartOutlined className='ftz' />
-                   Node
+                   算法工程
                </a>
               </Link>
             </Menu.Item>
@@ -105,7 +101,7 @@ const Header = () => {
               <Menu.Item key="1" className='ftz' onClick={listSwitch}>
                 <Link href={{ pathname: '/list', query: { id: 1 } }}>
                   <a>
-                    <PlaySquareOutlined className='ftz' />
+                    <FundViewOutlined className='ftz' />
                     JavaScript
                </a>
                 </Link>
@@ -122,7 +118,7 @@ const Header = () => {
                 <Link href={{ pathname: '/list', query: { id: 3 } }}>
                   <a>
                     <RadarChartOutlined className='ftz' />
-                   Node
+                    算法工程
                </a>
                 </Link>
               </Menu.Item>

@@ -20,7 +20,13 @@ const Detailed = (props) => {
     const achor = tocift.add(text, level);
     return `<a id='${achor}' herf='#${achor}' class="anchor-fix"><h${level}>${text}</h${level}></a>\n`;
   }
-
+  const timetrans = (date) => {
+    const date = new Date(date * 1000),//如果date为13位不需要乘1000
+      Y = date.getFullYear() + '-',
+      M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-',
+      D = (date.getDate() < 10 ? '0' + (date.getDate()) : date.getDate()) + ' ';
+    return Y + M + D;
+  }
 
   marked.setOptions({
     renderer: renderer,
@@ -51,7 +57,7 @@ const Detailed = (props) => {
   return (
     <div>
       <Head>
-        <title>Home</title>
+        <title>Stone-{props.title}</title>
       </Head>
       <Header />
       <Row className='comm-main' justify="center">
@@ -68,7 +74,7 @@ const Detailed = (props) => {
               {props.title}
             </div>
             <div className='list-icon center'>
-              <span className='icon-time'><HourglassOutlined />{props.addTime}</span>
+              <span className='icon-time'><HourglassOutlined />{timetrans(props.addTime)}</span>
               <span className='icon-category'><YoutubeOutlined />{props.typeName}</span>
               <span className='icon-numberpeople'><FireOutlined /> <CountUp end={props.view_count} />人</span>
             </div>
@@ -95,6 +101,7 @@ const Detailed = (props) => {
   )
 }
 Detailed.getInitialProps = async (context) => {
+
   let id = context.query.id
   const promise = new Promise((resolve) => {
     axios(servicePath.getArticleById + id).then(res => {

@@ -1,0 +1,13 @@
+2020-05-31 13:47:36,045 INFO 27528 [Job#15909040560444147782903649322] E:\myBlog\blog\service\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2020-05-31 13:47:36,052 INFO 27528 [Job#15909040560444147782903649322] E:\myBlog\blog\service\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 7ms
+2020-05-31 13:47:36,052 INFO 27528 [Job#15909040560464147782922229502] E:\myBlog\blog\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2020-05-31 13:47:36,055 INFO 27528 [Job#15909040560464147782922229502] E:\myBlog\blog\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 3ms
+2020-06-01 08:57:55,985 INFO 27528 [Job#15909730759794837982474463293] E:\myBlog\blog\service\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2020-06-01 08:57:55,985 INFO 27528 [Job#15909730759834837982513676403] E:\myBlog\blog\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2020-06-01 08:57:55,990 INFO 27528 [Job#15909730759884837982564977903] E:\myBlog\blog\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js executing by app
+2020-06-01 08:57:56,002 INFO 27528 [Job#15909730759794837982474463293] E:\myBlog\blog\service\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 17ms
+2020-06-01 08:57:56,006 INFO 27528 [Job#15909730759884837982564977903] E:\myBlog\blog\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js execute succeed, used 15ms
+2020-06-01 08:57:56,017 INFO 27528 [Job#15909730759834837982513676403] E:\myBlog\blog\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 30ms
+2020-06-01 08:57:55,983 INFO 12192 [Timer] E:\myBlog\blog\service\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 54124021ms at 2020-06-02 00:00:00.004
+2020-06-01 08:57:55,988 INFO 12192 [Timer] E:\myBlog\blog\service\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 54125017ms at 2020-06-02 00:00:01.005
+2020-06-01 08:57:55,992 INFO 12192 [Timer] E:\myBlog\blog\service\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 70324011ms at 2020-06-02 04:30:00.003

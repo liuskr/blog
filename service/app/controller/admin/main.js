@@ -8,6 +8,7 @@ class MainController extends Controller {
     const { ctx } = this;
     const userName = ctx.request.body.userName;
     const password = ctx.request.body.password;
+    // const resule = await this.app.mysql.get('admin_user', { userName: userName, password: password });
     const sql = `SELECT userName FROM admin_user WHERE userName='${userName}' AND password='${password}'`;
     const res = await this.app.mysql.query(sql);
     if (res.length > 0) {

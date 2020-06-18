@@ -44,7 +44,9 @@ const Home = (props) => {
   return (
     <div>
       <Head>
-        <title>首页</title>
+        <title>首页 | JavaScript 算法学习 Python数据挖掘</title>
+        <meta name="description" content="首页 | JavaScript 算法学习 Python数据挖掘"></meta>
+        <link rel="icon" href='../public/favicon.ico' mce_href="../public/favicon.ico" type="image/x-icon" />
       </Head>
       <Affix offsetTop={0}>
         <Header />

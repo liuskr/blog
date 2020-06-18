@@ -1,0 +1,158 @@
+2020-06-01 11:41:35,274 ERROR 23572 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\myBlog\blog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\myBlog\blog\service\node_modules\co\index.js:65:19)
+    at E:\myBlog\blog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\myBlog\blog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\myBlog\blog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\myBlog\blog\service\app\controller\default\home.js:14:26)
+    at HomeController.getArticleById (E:\myBlog\blog\service\app\controller\default\home.js:39:12)
+
+pid: 23572
+hostname: AUUX0RJNSI27X9S
+
+2020-06-01 11:41:42,280 ERROR 23572 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\myBlog\blog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\myBlog\blog\service\node_modules\co\index.js:65:19)
+    at E:\myBlog\blog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\myBlog\blog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\myBlog\blog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\myBlog\blog\service\app\controller\default\home.js:14:26)
+    at HomeController.getArticleById (E:\myBlog\blog\service\app\controller\default\home.js:39:12)
+
+pid: 23572
+hostname: AUUX0RJNSI27X9S
+
+2020-06-01 11:41:55,875 ERROR 23572 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\myBlog\blog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\myBlog\blog\service\node_modules\co\index.js:65:19)
+    at E:\myBlog\blog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\myBlog\blog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\myBlog\blog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\myBlog\blog\service\app\controller\default\home.js:14:26)
+    at HomeController.getArticleById (E:\myBlog\blog\service\app\controller\default\home.js:39:12)
+
+pid: 23572
+hostname: AUUX0RJNSI27X9S
+
+2020-06-01 11:42:04,651 ERROR 23572 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\myBlog\blog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\myBlog\blog\service\node_modules\co\index.js:65:19)
+    at E:\myBlog\blog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\myBlog\blog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\myBlog\blog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\myBlog\blog\service\app\controller\default\home.js:14:26)
+    at HomeController.getArticleById (E:\myBlog\blog\service\app\controller\default\home.js:39:12)
+
+pid: 23572
+hostname: AUUX0RJNSI27X9S
+
+2020-06-01 11:42:42,244 ERROR 9408 nodejs.TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at RDSClient.proto.update (E:\myBlog\blog\service\node_modules\ali-rds\lib\operator.js:147:30)
+    at proto.update.next (<anonymous>)
+    at onFulfilled (E:\myBlog\blog\service\node_modules\co\index.js:65:19)
+    at E:\myBlog\blog\service\node_modules\co\index.js:54:5
+    at new Promise (<anonymous>)
+    at RDSClient.co (E:\myBlog\blog\service\node_modules\co\index.js:50:10)
+    at RDSClient.createPromise [as update] (E:\myBlog\blog\service\node_modules\co\index.js:30:15)
+    at HomeController.pageViews (E:\myBlog\blog\service\app\controller\default\home.js:14:26)
+    at HomeController.getArticleById (E:\myBlog\blog\service\app\controller\default\home.js:39:12)
+
+pid: 9408
+hostname: AUUX0RJNSI27X9S
+
+2020-06-01 11:51:18,802 ERROR 25816 nodejs.ReferenceError: view_count is not defined
+    at HomeController.pageViews (E:\myBlog\blog\service\app\controller\default\home.js:11:19)
+    at HomeController.getArticleById (E:\myBlog\blog\service\app\controller\default\home.js:37:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async E:\myBlog\blog\service\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\myBlog\blog\service\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\myBlog\blog\service\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\myBlog\blog\service\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\myBlog\blog\service\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\myBlog\blog\service\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\myBlog\blog\service\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 25816
+hostname: AUUX0RJNSI27X9S
+
+2020-06-01 11:51:29,786 ERROR 25816 nodejs.ReferenceError: view_count is not defined
+    at HomeController.pageViews (E:\myBlog\blog\service\app\controller\default\home.js:11:19)
+    at HomeController.getArticleById (E:\myBlog\blog\service\app\controller\default\home.js:37:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async E:\myBlog\blog\service\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\myBlog\blog\service\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\myBlog\blog\service\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\myBlog\blog\service\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\myBlog\blog\service\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\myBlog\blog\service\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\myBlog\blog\service\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 25816
+hostname: AUUX0RJNSI27X9S
+
+2020-06-01 11:51:34,371 ERROR 25816 nodejs.ReferenceError: view_count is not defined
+    at HomeController.pageViews (E:\myBlog\blog\service\app\controller\default\home.js:11:19)
+    at HomeController.getArticleById (E:\myBlog\blog\service\app\controller\default\home.js:37:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async E:\myBlog\blog\service\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\myBlog\blog\service\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\myBlog\blog\service\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\myBlog\blog\service\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\myBlog\blog\service\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\myBlog\blog\service\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\myBlog\blog\service\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 25816
+hostname: AUUX0RJNSI27X9S
+
+2020-06-01 11:52:05,246 ERROR 25260 nodejs.ReferenceError: view_count is not defined
+    at HomeController.pageViews (E:\myBlog\blog\service\app\controller\default\home.js:11:13)
+    at HomeController.getArticleById (E:\myBlog\blog\service\app\controller\default\home.js:37:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async E:\myBlog\blog\service\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\myBlog\blog\service\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\myBlog\blog\service\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\myBlog\blog\service\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\myBlog\blog\service\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\myBlog\blog\service\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\myBlog\blog\service\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 25260
+hostname: AUUX0RJNSI27X9S
+
+2020-06-01 11:52:16,233 ERROR 25260 nodejs.ReferenceError: view_count is not defined
+    at HomeController.pageViews (E:\myBlog\blog\service\app\controller\default\home.js:11:13)
+    at HomeController.getArticleById (E:\myBlog\blog\service\app\controller\default\home.js:37:12)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async E:\myBlog\blog\service\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (E:\myBlog\blog\service\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (E:\myBlog\blog\service\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (E:\myBlog\blog\service\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (E:\myBlog\blog\service\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (E:\myBlog\blog\service\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (E:\myBlog\blog\service\node_modules\koa-bodyparser\index.js:95:5)
+
+pid: 25260
+hostname: AUUX0RJNSI27X9S
+
+2020-06-02 09:03:52,127 ERROR 23676 nodejs.ClusterClientNoResponseError: client no response in 51582782ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (E:\myBlog\blog\service\node_modules\cluster-client\lib\leader.js:77:23)
+    at listOnTimeout (internal/timers.js:549:17)
+    at processTimers (internal/timers.js:492:7)
+name: "ClusterClientNoResponseError"
+pid: 23676
+hostname: AUUX0RJNSI27X9S
+
